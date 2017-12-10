@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Tajwar Abrar Aleef</title>
+    <title>Projects on Tajwar Abrar Aleef</title>
     <link>https://tajwarabraraleef.github.io/publication/</link>
-    <description>Recent content in Publications on Tajwar Abrar Aleef</description>
+    <description>Recent content in Projects on Tajwar Abrar Aleef</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Tajwar Abrar Aleef </copyright>
@@ -13,46 +13,34 @@
     <item>
       <title>Automatic Skin Lesion Segmentation for Melanoma Detection using CNN, ISIC 2017 Challenge</title>
       <link>https://tajwarabraraleef.github.io/publication/3/</link>
-      <pubDate>Thu, 02 Feb 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://tajwarabraraleef.github.io/publication/3/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
       <title>Brain tumor classification using convolutional neural networks</title>
       <link>https://tajwarabraraleef.github.io/publication/4/</link>
-      <pubDate>Thu, 02 Feb 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://tajwarabraraleef.github.io/publication/4/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
       <title>CNN regressor for automating treatment planning of cervical brachytherapy</title>
-      <link>https://tajwarabraraleef.github.io/publication/clothing-search/</link>
-      <pubDate>Thu, 02 Feb 2017 00:00:00 +0000</pubDate>
+      <link>https://tajwarabraraleef.github.io/publication/1/</link>
+      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://tajwarabraraleef.github.io/publication/clothing-search/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Design, Measurement and Performance Enhancement of a Miniaturized Implantable Antenna for Biomedical Applications </title>
-      <link>https://tajwarabraraleef.github.io/publication/8/</link>
-      <pubDate>Thu, 02 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://tajwarabraraleef.github.io/publication/8/</guid>
+      <guid>https://tajwarabraraleef.github.io/publication/1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Heart Flow Analysis in ECG-gated Cardiac Ultrasound Images using MATLAB</title>
       <link>https://tajwarabraraleef.github.io/publication/7/</link>
-      <pubDate>Thu, 02 Feb 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://tajwarabraraleef.github.io/publication/7/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/adam-p/markdown-here/master/src/common/images/icon48.png&#34; alt=&#34;Imag&#34; /&gt;&lt;/p&gt;
@@ -62,30 +50,37 @@
     <item>
       <title>Retinal Vessel Segmentation in Color Fundus Images</title>
       <link>https://tajwarabraraleef.github.io/publication/5/</link>
-      <pubDate>Thu, 02 Feb 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://tajwarabraraleef.github.io/publication/5/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
       <title>Web Application Based Automatic Classification of Skin Cancer using CNN, ISIC 2017 Challenge</title>
       <link>https://tajwarabraraleef.github.io/publication/2/</link>
-      <pubDate>Thu, 02 Feb 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://tajwarabraraleef.github.io/publication/2/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Design, Measurement and Performance Enhancement of a Miniaturized Implantable Antenna for Biomedical Applications </title>
+      <link>https://tajwarabraraleef.github.io/publication/8/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tajwarabraraleef.github.io/publication/8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>{Tool for Automated Pectoral Muscle Segmentation in Digital Mammograms using OpenCV</title>
       <link>https://tajwarabraraleef.github.io/publication/6/</link>
-      <pubDate>Thu, 02 Feb 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://tajwarabraraleef.github.io/publication/6/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
   </channel>
