@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contacts on Tajwar Abrar Aleef</title>
+    <link>https://tajwarabraraleef.github.io/contact/</link>
+    <description>Recent content in Contacts on Tajwar Abrar Aleef</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Tajwar Abrar Aleef </copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/contact/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Contact</title>
+      <link>https://tajwarabraraleef.github.io/contact/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://tajwarabraraleef.github.io/contact/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

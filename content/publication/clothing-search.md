@@ -1,6 +1,6 @@
 +++
 title = "CNN regressor for automating treatment planning of cervical brachytherapy"
-date = ""
+date = "2017-02-02"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = []
