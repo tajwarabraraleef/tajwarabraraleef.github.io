@@ -11,76 +11,154 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>CNN regressor for automating treatment planning of cervical brachytherapy</title>
+      <link>https://tajwarabraraleef.github.io/publication/1/</link>
+      <pubDate>Mon, 11 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tajwarabraraleef.github.io/publication/1/</guid>
+      <description>&lt;p&gt;Feel free to email me for more details of the project or if you want the source code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Automatic Skin Lesion Segmentation for Melanoma Detection using CNN, ISIC 2017 Challenge</title>
       <link>https://tajwarabraraleef.github.io/publication/3/</link>
-      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://tajwarabraraleef.github.io/publication/3/</guid>
-      <description></description>
+      <description>&lt;p&gt;Feel free to email me for more details of the project or if you want the source code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Study of Macular Lesion classification and Retinal vessel segmentation using deep learning techniques</title>
+      <link>https://tajwarabraraleef.github.io/publication/17/</link>
+      <pubDate>Sat, 09 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tajwarabraraleef.github.io/publication/17/</guid>
+      <description>&lt;p&gt;Feel free to email me for more details of the project or if you want the source code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Web Application Based Automatic Classification of Skin Cancer using CNN, ISIC 2017 Challenge</title>
+      <link>https://tajwarabraraleef.github.io/publication/2/</link>
+      <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tajwarabraraleef.github.io/publication/2/</guid>
+      <description>&lt;p&gt;Feel free to email me for more details of the project or if you want the source code.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Brain tumor classification using convolutional neural networks</title>
       <link>https://tajwarabraraleef.github.io/publication/4/</link>
-      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://tajwarabraraleef.github.io/publication/4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CNN regressor for automating treatment planning of cervical brachytherapy</title>
-      <link>https://tajwarabraraleef.github.io/publication/1/</link>
-      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://tajwarabraraleef.github.io/publication/1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Heart Flow Analysis in ECG-gated Cardiac Ultrasound Images using MATLAB</title>
-      <link>https://tajwarabraraleef.github.io/publication/7/</link>
-      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://tajwarabraraleef.github.io/publication/7/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/adam-p/markdown-here/master/src/common/images/icon48.png&#34; alt=&#34;Imag&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;Feel free to email me for more details of the project or if you want the source code.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Retinal Vessel Segmentation in Color Fundus Images</title>
       <link>https://tajwarabraraleef.github.io/publication/5/</link>
-      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://tajwarabraraleef.github.io/publication/5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web Application Based Automatic Classification of Skin Cancer using CNN, ISIC 2017 Challenge</title>
-      <link>https://tajwarabraraleef.github.io/publication/2/</link>
-      <pubDate>Tue, 08 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://tajwarabraraleef.github.io/publication/2/</guid>
-      <description></description>
+      <description>&lt;p&gt;Feel free to email me for more details of the project or if you want the source code.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Design, Measurement and Performance Enhancement of a Miniaturized Implantable Antenna for Biomedical Applications </title>
       <link>https://tajwarabraraleef.github.io/publication/8/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://tajwarabraraleef.github.io/publication/8/</guid>
-      <description></description>
+      <description>&lt;p&gt;Feel free to email me for more details of the project or if you want the source code.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>{Tool for Automated Pectoral Muscle Segmentation in Digital Mammograms using OpenCV</title>
+      <title>Heart Flow Analysis in ECG-gated Cardiac Ultrasound Images using MATLAB</title>
+      <link>https://tajwarabraraleef.github.io/publication/7/</link>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tajwarabraraleef.github.io/publication/7/</guid>
+      <description>&lt;p&gt;Feel free to email me for more details of the project or if you want the source code.
+#&lt;img src=&#34;https://raw.githubusercontent.com/adam-p/markdown-here/master/src/common/images/icon48.png&#34; alt=&#34;Imag&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Complete end-to-end low cost solution to a 3D scanning system with integrated turntable</title>
+      <link>https://tajwarabraraleef.github.io/publication/10/</link>
+      <pubDate>Mon, 12 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://tajwarabraraleef.github.io/publication/10/</guid>
+      <description>&lt;p&gt;Feel free to email me for more details of the project or if you want the source code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Design of an Automated Feature Analysis &amp; Combined Thresholding Infarct Sizing Algorithm</title>
+      <link>https://tajwarabraraleef.github.io/publication/9/</link>
+      <pubDate>Sun, 11 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://tajwarabraraleef.github.io/publication/9/</guid>
+      <description>&lt;p&gt;Feel free to email me for more details of the project or if you want the source code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tool for Automated Pectoral Muscle Segmentation in Digital Mammograms using OpenCV</title>
       <link>https://tajwarabraraleef.github.io/publication/6/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 10 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://tajwarabraraleef.github.io/publication/6/</guid>
-      <description></description>
+      <description>&lt;p&gt;Feel free to email me for more details of the project or if you want the source code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Face Recognition using Principal Component Analysis</title>
+      <link>https://tajwarabraraleef.github.io/publication/16/</link>
+      <pubDate>Fri, 09 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://tajwarabraraleef.github.io/publication/16/</guid>
+      <description>&lt;p&gt;Feel free to email me for more details of the project or if you want the source code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Super-Resolution by using Simple Functions</title>
+      <link>https://tajwarabraraleef.github.io/publication/11/</link>
+      <pubDate>Thu, 08 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://tajwarabraraleef.github.io/publication/11/</guid>
+      <description>&lt;p&gt;Feel free to email me for more details of the project or if you want the source code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>6-DOF Programmable Articulated Robotic Arm</title>
+      <link>https://tajwarabraraleef.github.io/publication/12/</link>
+      <pubDate>Sat, 12 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://tajwarabraraleef.github.io/publication/12/</guid>
+      <description>&lt;p&gt;Feel free to email me for more details of the project or if you want the source code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Firefighting Robot</title>
+      <link>https://tajwarabraraleef.github.io/publication/13/</link>
+      <pubDate>Fri, 11 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://tajwarabraraleef.github.io/publication/13/</guid>
+      <description>&lt;p&gt;Feel free to email me for more details of the project or if you want the source code.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
