@@ -11,6 +11,16 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Improved malignancy estimation of pulmonary nodules using Multi-View Dual-Time Point CNNs</title>
+      <link>https://tajwarabraraleef.github.io/publication/21/</link>
+      <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tajwarabraraleef.github.io/publication/21/</guid>
+      <description>&lt;p&gt;Feel free to email me for more details of the project or if you want the source code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Automatic Brain Tissue Segmentation using 3D fully convolutional networks</title>
       <link>https://tajwarabraraleef.github.io/publication/20/</link>
       <pubDate>Fri, 09 Feb 2018 00:00:00 +0000</pubDate>
@@ -147,16 +157,6 @@
       <pubDate>Sat, 10 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://tajwarabraraleef.github.io/publication/6/</guid>
-      <description>&lt;p&gt;Feel free to email me for more details of the project or if you want the source code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Face Recognition using Principal Component Analysis</title>
-      <link>https://tajwarabraraleef.github.io/publication/16/</link>
-      <pubDate>Fri, 09 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://tajwarabraraleef.github.io/publication/16/</guid>
       <description>&lt;p&gt;Feel free to email me for more details of the project or if you want the source code.&lt;/p&gt;
 </description>
     </item>
