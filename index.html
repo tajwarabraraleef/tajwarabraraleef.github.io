@@ -448,41 +448,37 @@
             </td>
           </tr>
 
-<!--&lt;!&ndash;3D scanning&ndash;&gt;-->
-<!--&lt;!&ndash;        &ndash;&gt;-->
-<!--       <tr onmouseout="scan_stop()" onmouseover="scan_start()">-->
-<!--            <td style="padding:20px;width:25%;vertical-align:middle">-->
-<!--              <div class="one">-->
-<!--                <div class="two" id='scan_image'>-->
-<!--                  <img src='images/3dscan.gif' width="160"></div>-->
-<!--                <img src='images/3dscan.jpg' width="160">-->
-<!--              </div>-->
-<!--              <script type="text/javascript">-->
-<!--                function scan_start() {-->
-<!--                  document.getElementById('scan_image').style.opacity = "1";-->
-<!--                }-->
+<!--Heart-->
+<!--        -->
+       <tr onmouseout="heart_stop()" onmouseover="heart_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='heart_image'>
+                  <img src='images/heart.gif' width="160"></div>
+                <img src='images/heart1.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function heart_start() {
+                  document.getElementById('heart_image').style.opacity = "1";
+                }
 
-<!--                function scan_stop() {-->
-<!--                  document.getElementById('scan_image').style.opacity = "0";-->
-<!--                }-->
-<!--                scan_stop()-->
-<!--              </script>-->
-<!--            </td>-->
-<!--            <td style="padding:20px;width:75%;vertical-align:middle">-->
-<!--              <a href="">-->
-<!--                <papertitle>Complete End-To-End Low Cost Solution To a 3D Scanning System with Integrated Turntable</papertitle>-->
-<!--              </a>-->
-<!--              <br>-->
-<!--              <a href="https://scholar.google.com/citations?hl=en&user=0fbX-_kAAAAJ/">Saed Khawaldeh</a>,-->
-<!--              <strong>Tajwar Abrar Aleef</strong>-->
-<!--              <a href="https://scholar.google.com/citations?user=imbYFrcAAAAJ&hl=en/">Usama Pervaiz</a>,-->
-<!--              <a href="https://scholar.google.com/citations?user=nbybbQ4AAAAJ&hl=en&oi=ao/">Yeman Brhane Hagos</a>,-->
-<!--              Vu Hoang Minh<br>-->
-<!--              [<a href="https://arxiv.org/abs/1709.02247">arXiv</a>]-->
-<!--              <p></p>-->
-<!--                TODO-->
-<!--            </td>-->
-<!--          </tr>-->
+                function heart_stop() {
+                  document.getElementById('heart_image').style.opacity = "0";
+                }
+                heart_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>Heart flow analysis in ECG-gated cardiac Ultrasound</papertitle>
+              </a>
+              <br>
+              [<a href="">code TODO</a>]
+              <p></p>
+                Automatic spatio-temporal analysis of cardiac flow was performed using Lucas Kanade and Farneback optical flow techniques. This method tracks the ventricle wall and displays sparse and dense patterns of the vector field of the blood flow. Local and global maximum velocities of the flow are also calculated and displayed for each frame. If any vorticity is detected, it is displayed using colormaps.
+
+            </td>
+          </tr>
 
 
         </tbody></table>
