@@ -1,5 +1,5 @@
 # tajwarabraraleef.github.io
 
-Source code for website
+Source code for the website. 
 
-Based on Jon Barron's site 
+Modified from Jon Barron's site (https://jonbarron.info/)
