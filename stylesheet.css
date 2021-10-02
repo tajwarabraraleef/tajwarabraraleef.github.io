@@ -2,11 +2,40 @@
 
 table {
   table-layout: fixed ;
-  width: 100% ;
+  width: 80% ;
+  vertical-align:middle;
 }
 td {
       display:inline-block;
-        width:100%;
+        width:120%;
+	vertical-align:middle;
+}
+
+.td_resize{
+        width:85%;
+}
+
+.footer{
+        width:80%;
+}
+
+
+.footer2{
+        width:80%;
+}
+
+.top{
+        width:122%;
+}
+
+.center {
+  display: block;
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 }
 
 }
