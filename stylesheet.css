@@ -7,12 +7,12 @@ table {
 }
 td {
       display:inline-block;
-        width:120%;
+        /* width:120%; */
 	vertical-align:middle;
 }
 
 .td_resize{
-        width:85%;
+        /* width:85%; */
 }
 
 .footer{
@@ -25,17 +25,14 @@ td {
 }
 
 .top{
-        width:122%;
+        /* width:122%; */
 }
 
 .center {
   display: block;
-  .center {
-  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
 }
 
 }
