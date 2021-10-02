@@ -2,15 +2,21 @@
 
   .one {
     text-align: center;
-    padding-left: 90%;
-    padding-right: 20%;
+    padding-left: 100%;
+    padding-right: 100%;
     /* transform: scale(1.20); */
   }
 
   .hoverZoomLink {
+    
+    margin: auto;
     text-align: center;
-    padding-left: 60%;
-    padding-right: 30%;
+    /* padding-left: 60%;
+    padding-right: 30%; */
+    
+  }
+
+  .profile {
     
   }
 
