@@ -1,5 +1,19 @@
 @media only screen and (min-width: 0px) and (max-width: 700px) {
 
+  .one {
+    text-align: center;
+    padding-left: 90%;
+    padding-right: 20%;
+    /* transform: scale(1.20); */
+  }
+
+  .hoverZoomLink {
+    text-align: center;
+    padding-left: 60%;
+    padding-right: 30%;
+    
+  }
+
 table {
   table-layout: fixed ;
   width: 80% ;
@@ -16,12 +30,11 @@ td {
 }
 
 .footer{
-        width:80%;
+        /* width:80%; */
 }
 
-
-.footer2{
-        width:80%;
+.footer-img {
+  padding: 0;
 }
 
 .top{
