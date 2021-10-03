@@ -1,42 +1,59 @@
 @media only screen and (min-width: 0px) and (max-width: 700px) {
 
-  .one {
+  /*.one {*/
+  /*  text-align: center;*/
+  /*  padding-left: 100%;*/
+  /*  padding-right: 100%;*/
+  /*  !* transform: scale(1.20); *!*/
+  /*}*/
+
+table {
+  table-layout: fixed ;
+  width: 100% ;
+  vertical-align:middle;
+}
+
+tr {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+td {
+  width: 100%;
+}
+/*td {*/
+/*      display:inline-block;*/
+/*        !* width:120%; *!*/
+/*	vertical-align:middle;*/
+/*}*/
+
+  .pic_region{
+    width: 238%;
+    margin: auto;
     text-align: center;
-    padding-left: 100%;
-    padding-right: 100%;
-    /* transform: scale(1.20); */
+    /*transform: scale(0.5);*/
+    /* padding-left: 60%;
+    padding-right: 30%; */
   }
 
-  .hoverZoomLink {
-    
+  .pic_separately {
+    width: 60%;
+    max-width: 60%;
     margin: auto;
     text-align: center;
     /* padding-left: 60%;
     padding-right: 30%; */
-    
+
   }
 
-  .profile {
-    
-  }
 
-table {
-  table-layout: fixed ;
-  width: 80% ;
-  vertical-align:middle;
-}
-td {
-      display:inline-block;
-        /* width:120%; */
-	vertical-align:middle;
-}
-
-.td_resize{
-        /* width:85%; */
+.heading_center{
+        text-align: center;
 }
 
 .footer{
-        /* width:80%; */
+        /*width:100%;*/
+  margin: auto;
 }
 
 .footer-img {
