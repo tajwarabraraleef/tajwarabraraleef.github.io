@@ -36,13 +36,15 @@ td {
   transform: scale(1.15);
 }
 
-.heading_center{
-        text-align: center;
+.heading_center {
+  text-align: center;
 }
 
 .text_just{
-        text-align: justify;
+        text-align: center;
 }
+
+.top_text{font-size: 16px}
 
 .paper_title_center{
   text-align: center;
