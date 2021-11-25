@@ -41,10 +41,11 @@ td {
 }
 
 .text_just{
-        text-align: center;
+        text-align: justify;
 }
 
-.top_text{font-size: 16px}
+.top_text{font-size: 16px;
+text-align: justify}
 
 .paper_title_center{
   text-align: center;
