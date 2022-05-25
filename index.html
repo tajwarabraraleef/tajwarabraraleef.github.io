@@ -4,7 +4,7 @@
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Tajwar Abrar Aleef</title>
-  
+
   <meta name="author" content="Tajwar Abrar Aleef">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="icon" type="image/png" href="images/icon.png">
@@ -109,6 +109,61 @@
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+<!--Probe mounted-->
+<!--        -->
+<tr onmouseout="probemounted_stop()" onmouseover="probemounted_start()">
+  <div >
+  <td style="padding:20px;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='probemounted_image'>
+      <img src="images/probe_mount2.png" width="160">
+      </div>
+      <img src='images/probe_mount1.png' width="160">
+    </div>
+    <script type="text/javascript">
+      function probemounted_start() {
+        document.getElementById('probemounted_image').style.opacity = "1";
+      }
+
+      function probemounted_stop() {
+        document.getElementById('probemounted_image').style.opacity = "0";
+      }
+      probemounted_stop()
+    </script>
+  </td>
+  <td style="padding:20px;vertical-align:middle">
+    <div class="paper_title">
+    <div class="paper_title_center">
+      <papertitle>3D Shear Wave Absolute Vibro-Elastography for guided prostate biopsy: phantom and in vivo liver validation </papertitle>
+    <br>
+      <strong>Tajwar Abrar Aleef</strong>,
+    <a>Qi Zeng</a>,
+    <a>Hamid Moradi</a>,
+    <a>Shahed Mohammed</a>,
+    <a>Tom Curran</a>,
+    <a>Mohammad Honarvar</a>,
+    <a href="https://surgery.med.ubc.ca/people/jmorris/"  target="_blank">W. James Morris</a>,
+    <a href="https://scholar.google.com/citations?user=cA0ELoQAAAAJ&hl=en/"  target="_blank">S. Sara Mahdavi</a>,
+    <a href="https://scholar.google.com/citations?user=kpp_A9wAAAAJ&hl=en&oi=ao/"  target="_blank">Septimiu E. Salcudean</a>
+    <br>
+
+    <em>Submitted to <a href=https://2022.ieee-ius.org/" target="_blank">IEEE IUS</a></em>, 2022 &nbsp
+    <br>
+    <!-- [ <a
+            href="https://rdcu.be/cKKFX" target="_blank">Paper</a> &nbsp|&nbsp
+    <a href="https://github.com/tajwarabraraleef/TTMB-biopsy-core-registration" target="_blank">Code</a> ] -->
+    </div></div>
+    <p></p>
+    <div style="text-align: left">
+      <div class="text_just">
+      System with an end-firing probe mounted shaker for doing shear wave absolute vibro-elastography of prostate. The system has been validated by comparing with MRE results using
+      quality assurance phantoms and in vivo liver data.
+      </div></div>
+  </td>
+    </div>
+</tr>
+
+
 
 
 
@@ -137,23 +192,29 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="paper_title">
               <div class="paper_title_center">
-                <papertitle>Multi-parametric transrectal ultrasound imaging for prostate cancer diagnosis</papertitle>
+                <papertitle>Quasi-Real Time Multi-Frequency 3D Shear Wave Absolute Vibro-Elastography (S-WAVE) System for Prostate</papertitle>
               <br>
                 <strong>Tajwar Abrar Aleef</strong>,
-              <a href="https://scholar.google.com/citations?user=4ObQ92QAAAAJ&hl=en"  target="_blank">Qi Zeng</a>,
+                Julio Lobo,
+                Ali Baghani,
+                Hani Eskandari,
+                Hamid Moradi,
+                <a href="https://ece.ubc.ca/robert-rohling/" target="_blank">Robert Rohling</a>,
+                <a href="https://www.prostatecentre.com/about-us/people/dr-larry-goldenberg"  target="_blank">S. Larry Goldenberg</a>,
+                <a>William James Morris</a>,
               <a href="https://scholar.google.com/citations?user=cA0ELoQAAAAJ&hl=en/"  target="_blank">S. Sara Mahdavi</a>,
               <a href="https://scholar.google.com/citations?user=kpp_A9wAAAAJ&hl=en&oi=ao/"  target="_blank">Septimiu E. Salcudean</a>
               <br>
 
-              <em>In Progress, 2021</em> &nbsp
+              <em>Submitted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42" target="_blank">IEEE TMI</a>, 2022</em> &nbsp
               <br>
+              [ <a href="https://arxiv.org/abs/2205.04038" target="_blank">arXiv</a> ]
               </div></div>
               <p></p>
               <div style="text-align: left">
                 <div class="text_just">
-                  Developing a framework for imaging prostate cancer in real-time using multi-parametric ultrasound such as: Shear Wave Vibroelastography
-                  (SWAVE), Strain Elastography, Quantitative RF, & RF time-series data. Ultimate goal is to have performance similar to the current gold
-                  standrand (multi-parametric MRI).
+                  A system developed for 3D elastography for prostate using a transperineal exciter. The system is validated using quality assurance phantoms
+                  and two clinical patient studies.
                 </div></div>
             </td>
               </div>
@@ -195,18 +256,21 @@
 
               <a href="https://sites.google.com/view/ipcai2022/home/" target="_blank"><em>IPCAI</em></a>, 2022 <font color="red"><strong> (Oral Presentation to be held in Tokyo)</strong></font> &nbsp
               <br>
+              [ <a
+                      href="https://rdcu.be/cKKFX" target="_blank">Paper</a> &nbsp|&nbsp
+              <a href="https://github.com/tajwarabraraleef/TTMB-biopsy-core-registration" target="_blank">Code</a> ]
               </div></div>
               <p></p>
               <div style="text-align: left">
                 <div class="text_just">
-              This framework uses information taken from the existing workflow of transperineal template mapping
+                This framework uses information taken from the existing workflow of transperineal template mapping
                 biopsy (such as the needle insertion point and depth) to register the pathology of the cores to
                 pre-operative ultrasound volumes. Pathology of the cores will be used as labels to train prostate
                 cancer classifiers using multi-parametric ultrasound volumes.
                 </div></div>
             </td>
               </div>
-          </tr> 
+          </tr>
 
 
 
@@ -262,7 +326,7 @@
                 </div></div>
             </td>
               </div>
-          </tr> 
+          </tr>
 
 
 <!--cGANs-->
@@ -361,7 +425,7 @@
              We propose a novel joint generation and segmentation strategy to learn a segmentation model with generalization capability to domains containing no labeled data. Such a technique is crucial in this application as there exists only limited labeled surgical robot-assisted prostatectomy data.
               </div></div>
             </td>
-          </tr> 
+          </tr>
 
 
 <!--Thyroid-->
@@ -504,7 +568,7 @@
               A novel multi-view multi-timepoint convolutional neural network (MVMT-CNN) was proposed to estimate malignancy in pulmonary lung nodules. We utilize scans of patients taken over time- providing the network with information on disease progression. This technique produced state-of-the-art results compared to standard single time-point disease estimation.
               </div></div>
             </td>
-          </tr> 
+          </tr>
 
 
 
@@ -559,7 +623,7 @@
                 A biomedical antenna was designed for wireless communication from inside a living body. The operating band for this antenna is in the Industrial, Scientific, and Medical band (2.4–2.48 GHz). The tiny dimension of the antenna with the 9.45 μm thickness of the patch allows it to be highly flexible- providing excellent results even in extreme conditions where the antenna conforms along the curvature of the body.
               </div></div>
             </td>
-          </tr> 
+          </tr>
 
 
 <!--CNN regressor-->
@@ -603,7 +667,7 @@
               Developed a framework using CNNs that can predict the geometric transformation of an object based on a target. The idea was to analyze if such a regression network can be used to find the transformation parameters of a brachytherapy applicator in the cervix from MRI scans; hence pinpointing the exact location of the device within the body.
               </div></div>
             </td>
-          </tr> 
+          </tr>
 
 
 
@@ -1194,7 +1258,7 @@
             </td>
           </tr>
         </tbody></table>
-        
+
 
 
 
