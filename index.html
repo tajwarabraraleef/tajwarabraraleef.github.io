@@ -1,5 +1,5 @@
 <!DOCTYPE HTML >
-<html lang="en"><head >
+<html lang="en"><head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -11,68 +11,88 @@
 </head>
 
 
-<!--Top body-->
+<script>
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "10px 10px";
+    document.getElementById("logo").style.fontSize = "25px";
+  } else {
+    document.getElementById("navbar").style.padding = "20px 10px";
+    document.getElementById("logo").style.fontSize = "30px";
+  }
+}
+</script>
+
+<!--Top nav bar-->
+<div id="navbar">
+  <a id="logo">Tajwar Abrar Aleef</a>
+  <div id="navbar-right">
+    <a href="#Home">Home</a>
+    <a href="#Research">Research</a>
+    <a href="#Projects">Projects</a>
+    <a href="#Teaching">Teaching</a>
+  </div>
+</div>
+
+<!-- Anchor point for Home -->
+<p id="Home"><br><br></p>
+
+<body style="background-color: #d8d8da;"></body>
 
 
-<body style="background-color: #e3e3e4;">
-  <table
-          style="width:100%;max-width:1000px;border:0px;border-spacing:30px;border-collapse:separate;margin-right:auto;margin-left:auto;background-color: white;"><tbody>
-    <tr style="padding:0px">
+<table
+          style="width:100%;max-width:900px;border:0px;border-spacing:30px;border-collapse:separate;margin-top:20px;margin-right:auto;margin-left:auto;background-color: rgb(255, 255, 255);"><tbody>
+
+            <tr style="padding:0px">
       <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <p style="text-align:center">
+                <name>Tajwar Abrar Aleef</name>
+              </p>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-top:-30px;max-width:auto;margin-left:auto;"><tbody>
           <tr style="padding:0px">
             <td style="padding:20px;vertical-align:middle">
               <div class="top">
-              <p style="text-align:center">
-                <br>
-                <name>Tajwar Abrar Aleef</name>
-              </p>
+
+
+                </div>
                 <p style="text-align: justify"><div class="top_text">
-
-                  Hi! I am a PhD Candidate from the Robotics and Control Laboratory at the
-                <a href="https://www.ubc.ca/" target="_blank" style="font-size: 17px">University of British Columbia</a> (Vancouver, Canada). I am working
-                  with Vancouver General Hospital & BC Cancer (Vancouver, Canada) to improve ultrasound-guided
-                  prostate cancer detection & treatment. One of my current projects is on developing
-                  a multi-parametric ultrasound system that can image the mechanical properties of
-                  tissue and aid in the non-invasive detection of prostate cancer.
-
-                  <br><br>
-                  I am an Erasmus Scholar and my MSc was a specialized
-                  degree focused on Medical Imaging fully funded by the European Union and was jointly hosted
-                  by three European countries (France, Italy, and Spain). Furthermore, I am also an electrical and electronics engineer. I have a strong background in AI & Medical Imaging from
-                  over 7 years of experience working with multiple universities, research groups & hospitals across Europe and Canada. In a nutshell, I am a swift learner with diverse knowledge and experience in both software and hardware engineering and I am ready to embrace and solve the next big problem!
-
+                Hello World!
+                Welcome to my quest of advancing science and technology!
+                <br><br>
+                Loaded with over <b>8 years of research experience</b>, I've published and presented numerous articles in <b>top-tier journals and conferences in the field of medical AI</b> and ultrasonic imaging.
+                During this time, I've had the privilege to work with some of the top researchers in medical AI across Europe and Canada. My efforts have resulted in <b>numerous awards and scholarships</b>, including the prestigious Erasmus Mundus Scholarship from the European Union.
+                <br><br>
+                Currently in the final stages of my <b>PhD in Biomedical Engineering</b> at the University of British Columbia (Vancouver, Canada), I've dedicated my effort and expertise towards enhancing prostate cancer detection through advances in ultrasound imaging and automating prostate cancer radiation treatment using cutting-edge AI tech.
+                In parallel, I am also working as a <b>Machine Learning Scientist</b> at Synthesis Health Inc, Vancouver. Here, our mission is to craft AI-powered intelligent radiology software, enhancing and expediting radiology services for hospitals and imaging centers.
+                <br><br>
+                Outside the realm of research, catch me immersed in the world of programming, strumming away on my guitar (check out some of my covers <a href="https://youtube.com/playlist?list=PL3m1Q5Dtntt8RTEJKjLOGsvp45aOg2WVw" target="_blank">here</a>), or lifting heavy weights at the gym (<a href="images/deadlift.mp4" target="_blank">300 lb deadlift attempt</a>).
+                Being fortunate enough to have visited over 24 different countries (<a href="images/google-timeline.PNG" target="_blank">all the places I have been to</a>), I also bring a wealth of cultural experiences and knowledge to the table (experience a <a href="https://youtu.be/6G1_6NY0hQw"  target="_blank"">snippet</a> of my visit to Thailand).
 
                     <br><br>
-                    Outside research, I play
-                    <a href="https://youtube.com/playlist?list=PL3m1Q5Dtntt8RTEJKjLOGsvp45aOg2WVw" target="_blank"
-                       style="font-size:17px">guitar</a> and enjoy all sorts of sports (nowadays lifting, climbing, and ice-skating).
-                    I also enjoy traveling a lot; so far have covered 24 countries and countless cities (here's a <a
-                          href="https://youtu.be/6G1_6NY0hQw"  target="_blank" style="font-size: 17px">vlog</a>
-                    from Thailand).
+                <strong >Key Expertise: </strong><em>Medical Imaging, Computer Vision, Machine Learning, Deep Learning, Ultrasound Imaging, Ultrasound Elastography, and much more</em>
 
-                    <br><br>
-                <strong>Key research interests: </strong><em>Medical Imaging & Analysis, Artificial Intelligence, Image Processing, Computer Vision,
-                Ultrasound Imaging, Ultrasound Elastography.</em>
-              </div></p>
+            </td>
+            <td style="padding:10px;" class="pic_region">
 
+              <a><img alt="profile photo" src="images/tajwar_2.jpg"
+                                               style= "width:100%" class="pic_separately"></a>
+
+            <br>
+            </div></p>
               <p style="text-align:center">
                 <a href="mailto:tajwaraleef@ece.ubc.ca">Email</a> &nbsp|&nbsp
-                <a href="data/Tajwar_Abrar_Aleef_CV.pdf" target="_blank">CV</a> &nbsp|&nbsp
+                <!-- <a href="data/Tajwar_Abrar_Aleef_CV.pdf" target="_blank">CV</a> &nbsp|&nbsp -->
                 <a href="https://scholar.google.com/citations?user=MhZ_pv8AAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a>
                 &nbsp|&nbsp
-                <a href="https://github.com/tajwarabraraleef/" target="_blank">GitHub</a> &nbsp|&nbsp
-                <a href="https://www.researchgate.net/profile/Tajwar-Aleef" target="_blank">Research Gate</a> &nbsp|&nbsp
+                <a href="https://github.com/tajwarabraraleef/" target="_blank">GitHub</a>                  <!-- <a href="https://www.researchgate.net/profile/Tajwar-Aleef" target="_blank">Research Gate</a> &nbsp|&nbsp -->
+                <br>
                 <a href="https://www.linkedin.com/in/tajwar-abrar-aleef/" target="_blank">LinkedIn</a> &nbsp|&nbsp
-                <a href="https://twitter.com/tajwaraleef" target="_blank">Twitter</a> &nbsp|&nbsp
+                <!-- <a href="https://twitter.com/tajwaraleef" target="_blank">Twitter</a> &nbsp|&nbsp -->
                 <a href="https://www.youtube.com/user/rrobothead/videos" target="_blank">YouTube</a>
               </p>
-                </div>
-            </td>
-            <td style="padding:20px;" class="pic_region">
-
-              <a href="images/tajwar.jpg"><img alt="profile photo" src="images/tajwar_circle.jpg"
-                                               style= "width:100%" class="pic_separately"></a>
 
             </td>
           </tr>
@@ -81,20 +101,19 @@
 
 <!--Research-->
 <!--        -->
-
+        <p id="Research"><br><br><br><br><br></p>
         <table
-                style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-top:-60px;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;vertical-align:middle">
               <div class="heading_center">
-              <heading>Selected Research Works</heading>
+              <heading>Selected Research Work</heading>
               </div>
 
               <p style="text-align: left">
                 <div class="text_just">
-                Most of my research work is centered around cancer/object of interest detection/localization/segmentation, image alignment (2D/3D//deformable), solving
-                constrained optimization problems for radiotherapy, adversarial learning, ultrasound
-                elastography, and designing biomedical implantable antennas.
+                Much of my research work heavily focuses on utilizing <b>machine learning in medical images</b> for purposes such as: detecting, localizing, and segmenting diseases or objects-of-interest; aligning or registering time-series, mono-modal, and multi-modal data; and solving
+                constrained optimization problems. In addition, I also have multiple works on <b>Generative AI</b>, ultrasound elastography, and biocompatible internal body antennas.
                 </div>
 <!--                Some of my representative papers are <span class="highlight">highlighted</span>.-->
               </p>
@@ -106,18 +125,149 @@
 
 
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-top:-20px;margin-right:auto;margin-left:auto;"><tbody>
 
-<!--Probe mounted-->
+
+<!--IUS 2023-->
+<!--        -->
+<tr onmouseout="ius_2023_stop()" onmouseover="ius_2023_start()">
+  <div >
+  <td style="padding:20px;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='ius_2023_image'>
+      <img src="images/ius_2023_2.gif" width="160" style="border-radius:5%">
+      </div>
+      <img src='images/ius_2023_1.png' width="160" style="border-radius:5%">
+    </div>
+    <script type="text/javascript">
+      function ius_2023_start() {
+        document.getElementById('ius_2023_image').style.opacity = "1";
+      }
+
+      function ius_2023_stop() {
+        document.getElementById('ius_2023_image').style.opacity = "0";
+      }
+      ius_2023_stop()
+    </script>
+  </td>
+  <td style="padding:20px;vertical-align:middle">
+    <div class="paper_title">
+    <div class="paper_title_center">
+    <papertitle>Implementation of Shear Wave and Strain Elastography with Micro-Ultrasound</papertitle>
+    <br>
+    <em><a href=https://2023.ieee-ius.org/" target="_blank">IEEE International Ultrasonic Symposium (IUS)</a></em>, Montréal, Canada, 2023
+    <br>
+    <font color="red"><strong> (Oral Presentation; Travel Award)</strong></font>
+    <br>
+    [ <a href="https://ieeexplore.ieee.org/abstract/document/10306532" target="_blank">Paper</a> ]
+    </div></div>
+    <p></p>
+    <div style="text-align: left">
+      <div class="text_just">
+      The first ever implementation of elastographic imaging (both strain and shear wave elastography) in a commercial microUS system and thus enabling multi-parametric microUS imaging and enabling improved cancer imaging.
+      </div></div>
+  </td>
+    </div>
+</tr>
+
+
+
+<!--SWAVE-->
+<!--        -->
+<tr onmouseout="swave_stop()" onmouseover="swave_start()">
+  <div >
+  <td style="padding:20px;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='swave_image'>
+      <img src="images/swave.png" width="160" style="border-radius:5%">
+      </div>
+      <img src='images/swave2.png' width="160" style="border-radius:5%">
+    </div>
+    <script type="text/javascript">
+      function swave_start() {
+        document.getElementById('swave_image').style.opacity = "1";
+      }
+
+      function swave_stop() {
+        document.getElementById('swave_image').style.opacity = "0";
+      }
+      swave_stop()
+    </script>
+  </td>
+  <td style="padding:20px;vertical-align:middle;">
+    <div class="paper_title">
+    <div class="paper_title_center">
+    <papertitle id="swave_text">Multi-Frequency 3D Shear Wave Absolute Vibro-Elastography (S-WAVE) System for the Prostate</papertitle>
+    <br>
+    <em><a href="https://www.ieeetmi.org/" target="_blank">IEEE Transactions on Medical Imaging (TMI)</a>, 2023</em>
+    <br>
+    [ <a href="https://ieeexplore.ieee.org/abstract/document/10159167" target="_blank">Paper</a> ]
+    </div></div>
+
+    <p></p>
+    <div style="text-align: left">
+      <div class="text_just">
+        First-of-a-kind multi-frequency 3D Shear Wave Absolute Vibro-Elastography (S-WAVE) system for the prostate, using a bandpass sampling strategy and transperineal excitation.
+        This system is compatible with both transperineal biopsy and prostate brachytherapy procedures. A S-WAVE based cancer classifier is also designed in this work.
+      </div>
+    </div>
+
+  </td>
+    </div>
+</tr>
+
+
+<!--Lung nodule malignacy-->
+<!--        -->
+          <tr onmouseout="ln_stop()" onmouseover="ln_start()">
+            <td style="padding:20px;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ln_image'>
+                  <img src='images/ln2.gif' width=160 style="border-radius:5%"></div>
+                <img src='images/ln.png' width=160 style="border-radius:5%">
+              </div>
+              <script type="text/javascript">
+                function ln_start() {
+                  document.getElementById('ln_image').style.opacity = "1";
+                }
+
+                function ln_stop() {
+                  document.getElementById('ln_image').style.opacity = "0";
+                }
+                ln_stop()
+              </script>
+            </td>
+            <td style="padding:20px;vertical-align:middle">
+              <div class="paper_title">
+              <div class="paper_title_center">
+                <papertitle>Prior CT improves deep learning for malignancy risk estimation of screening-detected pulmonary nodules</papertitle>
+                <br>
+                <em><a href=https://pubs.rsna.org/journal/radiology" target="_blank">Radiology, Radiological Society of North America (RSNA)</a></em>, 2023
+                <br>
+                <font color="red"><strong> (Extension of MSc thesis)</strong></font>
+                <br>
+                [ <a href="https://pubs.rsna.org/doi/abs/10.1148/radiol.223308" target="_blank">Paper</a> ]
+
+              </div></div>
+              <p></p>
+              <div style="text-align: left"><div class="text_just">
+              A deep learning algorithm is developed to estimate 3-year malignancy risk of detected pulmonary nodules utilizing time-series data (current and prior low-dose CT examinations). This model outperforms all current state-of-the-art that uses only single time-point CT examinations.
+
+              </div></div>
+            </td>
+          </tr>
+
+
+<!--Probe mounted UFFC-->
 <!--        -->
 <tr onmouseout="probemounted_stop()" onmouseover="probemounted_start()">
   <div >
   <td style="padding:20px;vertical-align:middle">
     <div class="one">
       <div class="two" id='probemounted_image'>
-      <img src="images/probe_mount2.png" width="160">
+      <img src="images/uffc_2.gif" width="160" style="border-radius:5%">
       </div>
-      <img src='images/probe_mount1.png' width="160">
+      <img src='images/uffc_1.png' width="160" style="border-radius:5%">
     </div>
     <script type="text/javascript">
       function probemounted_start() {
@@ -133,29 +283,196 @@
   <td style="padding:20px;vertical-align:middle">
     <div class="paper_title">
     <div class="paper_title_center">
-      <papertitle>3D Shear Wave Absolute Vibro-Elastography for guided prostate biopsy: phantom and in vivo liver validation </papertitle>
+    <papertitle>3D Transducer Mounted Shear Wave Absolute Vibro-Elastography: Proof of Concept</papertitle>
     <br>
-      <strong>Tajwar Abrar Aleef</strong>,
-    Qi Zeng,
-    Hamid Moradi,
-    Shahed Mohammed,
-    Tom Curran,
-    Mohammad Honarvar,
-    <a href="https://surgery.med.ubc.ca/people/jmorris/"  target="_blank">W. James Morris</a>,
-    <a href="https://scholar.google.com/citations?user=cA0ELoQAAAAJ&hl=en/"  target="_blank">S. Sara Mahdavi</a>,
-    <a href="https://scholar.google.com/citations?user=kpp_A9wAAAAJ&hl=en&oi=ao/"  target="_blank">Septimiu E. Salcudean</a>
+    <em><a href=https://ieee-uffc.org/publication/t-uffc" target="_blank">IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control (TUFFC)</a></em>, 2023
     <br>
+    <font color="red"><strong>(Spotlight Issue on Interventional Ultrasound; Featured as the cover article)</strong></font>
+    <br>
+    [ <a href="https://ieeexplore.ieee.org/abstract/document/10054448" target="_blank">Paper</a> &nbsp|&nbsp
+      <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10234147" target="_blank"> Cover feature</a>
 
-    <em><a href=https://2022.ieee-ius.org/" target="_blank">IEEE IUS</a></em>, 2022 <font color="red"><strong> (Oral Presentation; Travel Award)</strong></font> &nbsp
-    <br>
-    [ <a
-            href="https://ieeexplore.ieee.org/abstract/document/9958838" target="_blank">Paper</a> &nbsp]
+    ]
+
     </div></div>
     <p></p>
     <div style="text-align: left">
       <div class="text_just">
-      System with an end-firing probe mounted shaker for doing shear wave absolute vibro-elastography of prostate. The system has been validated by comparing with MRE results using
-      quality assurance phantoms and in vivo liver data.
+      First-of-a-kind handheld multi-frequency 3D S-WAVE system designed for targeted systematic prostate biopsy procedures. This system incorporates a new transducer-mounted excitation device, enabling it to retain the ultrasound's portability.
+      </div></div>
+  </td>
+    </div>
+</tr>
+
+
+<!--OPTIMAL ABS-->
+<!--        -->
+<tr onmouseout="abs_stop()" onmouseover="abs_start()">
+  <div >
+  <td style="padding:20px;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='abs_image'>
+      <img src="images/optimal.gif" width="160" style="border-radius:5%">
+      </div>
+      <img src='images/optimal1.png' width="160" style="border-radius:5%">
+    </div>
+    <script type="text/javascript">
+      function abs_start() {
+        document.getElementById('abs_image').style.opacity = "1";
+      }
+
+      function abs_stop() {
+        document.getElementById('abs_image').style.opacity = "0";
+      }
+      abs_stop()
+    </script>
+  </td>
+  <td style="padding:20px;vertical-align:middle">
+    <div class="paper_title">
+    <div class="paper_title_center">
+    <papertitle>Optimizing Prostate Cancer Treatment in Men with Advanced Local Disease (OPTiMAL) Study: Initial Multi-Modal Imaging Results</papertitle>
+    <br>
+    <em><a href=https://www.brachyjournal.com/" target="_blank">Brachytherapy, American Brachytherapy Society Conference</a></em>, Vancouver, Canada, 2023
+    <br>
+    [ <a href="https://www.brachyjournal.com/article/S1538-4721(23)01530-1/fulltext" target="_blank">Abstract</a> ]
+
+    </div></div>
+    <p></p>
+    <div style="text-align: left">
+      <div class="text_just">
+      Initial results of a clinical trial where we are conducting multi-modal imaging with our 3D S-WAVE system. The imaging results, which also includes multi-parametric MR, are compared with biopsy identified cancers zones where a positive correlation is observed.
+      </div></div>
+  </td>
+    </div>
+</tr>
+
+<!--3D Micro-->
+<!--        -->
+<tr onmouseout="micro_stop()" onmouseover="micro_start()">
+  <div >
+  <td style="padding:20px;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='micro_image'>
+      <img src="images/3d_micro.gif" width="160" style="border-radius:5%">
+      </div>
+      <img src='images/3d_micro.png' width="160" style="border-radius:5%">
+    </div>
+    <script type="text/javascript">
+      function micro_start() {
+        document.getElementById('micro_image').style.opacity = "1";
+      }
+
+      function micro_stop() {
+        document.getElementById('micro_image').style.opacity = "0";
+      }
+      micro_stop()
+    </script>
+  </td>
+  <td style="padding:20px;vertical-align:middle">
+    <div class="paper_title">
+    <div class="paper_title_center">
+    <papertitle>Robotically controlled three-dimensional micro-ultrasound for prostate biopsy guidance</papertitle>
+    <br>
+    <em><a href=https://sites.google.com/view/ipcai-2023/home" target="_blank">Information Processing in Computer-Assisted Interventions (IPCAI)</a></em>, Munich, Germany, 2023
+    <br>
+    <font color="red"><strong> (Oral Presentation)</strong></font>
+    <br>
+    [ <a href="https://link.springer.com/article/10.1007/s11548-023-02869-3" target="_blank">Paper</a> ]
+
+    </div></div>
+    <p></p>
+    <div style="text-align: left">
+      <div class="text_just">
+      Design of a robotically controlled system to enable 3D imaging with the only commercial microUS system from prostate (ExactVu system). With 3D information, better guidance can be achieved during biopsy. It also enables the possibility of 3D multi-parametric imaging.
+      </div></div>
+  </td>
+    </div>
+</tr>
+
+
+<!--Probe mounted-IUS->
+<!--        -->
+<tr onmouseout="probemounted_ius_stop()" onmouseover="probemounted_ius_start()">
+  <div >
+  <td style="padding:20px;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='probemounted_ius_image'>
+      <img src="images/probe_mounted.gif" width="160" style="border-radius:5%">
+      </div>
+      <img src='images/probe_mount2.gif' width="160" style="border-radius:5%">
+    </div>
+    <script type="text/javascript">
+      function probemounted_ius_start() {
+        document.getElementById('probemounted_ius_image').style.opacity = "1";
+      }
+
+      function probemounted_ius_stop() {
+        document.getElementById('probemounted_ius_image').style.opacity = "0";
+      }
+      probemounted_ius_stop()
+    </script>
+  </td>
+  <td style="padding:20px;vertical-align:middle">
+    <div class="paper_title">
+    <div class="paper_title_center">
+    <papertitle>3D Shear Wave Absolute Vibro-Elastography System for Targeted Prostate Biopsy: Initial Results</papertitle>
+    <br>
+    <em><a href=https://2022.ieee-ius.org/" target="_blank">IEEE International Ultrasonic Symposium (IUS)</a></em>, Venice, Italy, 2022
+    <br>
+    <font color="red"><strong> (Oral Presentation; Travel Award)</strong></font>
+    <br>
+    [ <a href="https://ieeexplore.ieee.org/abstract/document/9958838" target="_blank">Paper</a> ]
+
+    </div></div>
+    <p></p>
+    <div style="text-align: left">
+      <div class="text_just">
+      Initial design of a 3D S-WAVE system using an end-firing probe for prostate imaging.
+      The system was validated by imaging quality assurance phantoms and in vivo liver data, comparing quantitative measurements to magnetic resonance elastography.
+      </div></div>
+  </td>
+    </div>
+</tr>
+
+<!--IUS QI-->
+<!--        -->
+<tr onmouseout="qi_ius_stop()" onmouseover="qi_ius_start()">
+  <div >
+  <td style="padding:20px;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='qi_ius_image'>
+      <img src="images/qi_ius1.png" width="160" style="border-radius:5%">
+      </div>
+      <img src='images/qi_ius2.png' width="160" style="border-radius:5%">
+    </div>
+    <script type="text/javascript">
+      function qi_ius_start() {
+        document.getElementById('qi_ius_image').style.opacity = "1";
+      }
+
+      function qi_ius_stop() {
+        document.getElementById('qi_ius_image').style.opacity = "0";
+      }
+      qi_ius_stop()
+    </script>
+  </td>
+  <td style="padding:20px;vertical-align:middle">
+    <div class="paper_title">
+    <div class="paper_title_center">
+    <papertitle>Multifrequency liver shear wave absolute vibro-elastography with an xmatrix array-2d vs. 3d comparison study</papertitle>
+    <br>
+    <em><a href=https://2022.ieee-ius.org/" target="_blank">IEEE International Ultrasonic Symposium (IUS)</a></em>, Venice, Italy, 2022
+    <br>
+    <font color="red"><strong> (Oral Presentation)</strong></font>
+    <br>
+    [ <a href="https://ieeexplore.ieee.org/abstract/document/9958511" target="_blank">Paper</a> ]
+
+    </div></div>
+    <p></p>
+    <div style="text-align: left">
+      <div class="text_just">
+      2D vibro-elastography techniques are still the current state-of-the-art and no study exists to compare 2D vs 3D in a controlled setting.
+      This study tackles this while using 3D magnetic resonance elastography as the reference standard. Consistent overestimation was seen with 2D reconstruction in both the phantom and in vivo dataset, resulting in a lower agreement to the MRE results when compared to the 3D reconstruction in a similar setting.
       </div></div>
   </td>
     </div>
@@ -164,59 +481,6 @@
 
 
 
-
-        <!--SWAVE-->
-<!--        -->
-          <tr onmouseout="swave_stop()" onmouseover="swave_start()">
-            <div >
-            <td style="padding:20px;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='swave_image'>
-                <img src="images/swave2.gif" width="160">
-                </div>
-                <img src='images/swave1.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function swave_start() {
-                  document.getElementById('swave_image').style.opacity = "1";
-                }
-
-                function swave_stop() {
-                  document.getElementById('swave_image').style.opacity = "0";
-                }
-                swave_stop()
-              </script>
-            </td>
-            <td style="padding:20px;vertical-align:middle">
-              <div class="paper_title">
-              <div class="paper_title_center">
-                <papertitle>Time Multi-Frequency 3D Shear Wave Absolute Vibro-Elastography (S-WAVE) System for the Prostate</papertitle>
-              <br>
-                <strong>Tajwar Abrar Aleef</strong>,
-                Julio Lobo,
-                Ali Baghani,
-                Hani Eskandari,
-                Hamid Moradi,
-                <a href="https://ece.ubc.ca/robert-rohling/" target="_blank">Robert Rohling</a>,
-                <a href="https://www.prostatecentre.com/about-us/people/dr-larry-goldenberg"  target="_blank">S. Larry Goldenberg</a>,
-                <a>William James Morris</a>,
-              <a href="https://scholar.google.com/citations?user=cA0ELoQAAAAJ&hl=en/"  target="_blank">S. Sara Mahdavi</a>,
-              <a href="https://scholar.google.com/citations?user=kpp_A9wAAAAJ&hl=en&oi=ao/"  target="_blank">Septimiu E. Salcudean</a>
-              <br>
-
-              <em>Under revision <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42" target="_blank">IEEE TMI</a>, 2022</em> &nbsp
-              <br>
-              [ <a href="https://arxiv.org/abs/2205.04038" target="_blank">arXiv</a> ]
-              </div></div>
-              <p></p>
-              <div style="text-align: left">
-                <div class="text_just">
-                  A system developed for 3D elastography for prostate using a transperineal exciter. The system is validated using quality assurance phantoms
-                  and two clinical patient studies.
-                </div></div>
-            </td>
-              </div>
-          </tr>
 <!--Biopsy-->
 <!--        -->
           <tr onmouseout="biopsy_stop()" onmouseover="biopsy_start()">
@@ -224,9 +488,9 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="one">
                 <div class="two" id='biopsy_image'>
-                <img src="images/biop2.png" width="160">
+                <img src="images/biop2.png" width="160" style="border-radius:5%">
                 </div>
-                <img src='images/biop1.png' width="160">
+                <img src='images/biop1.png' width="160" style="border-radius:5%">
               </div>
               <script type="text/javascript">
                 function biopsy_start() {
@@ -242,20 +506,13 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="paper_title">
               <div class="paper_title_center">
-                <papertitle>Registration of transperineal template mapping biopsy cores to volumetric
-                  ultrasound</papertitle>
+              <papertitle>Registration of transperineal template mapping biopsy cores to volumetric ultrasound</papertitle>
               <br>
-                <strong>Tajwar Abrar Aleef</strong>,
-              <a href="https://scholar.google.com/citations?user=4ObQ92QAAAAJ&hl=en"  target="_blank">Qi Zeng</a>,
-              <a href="https://surgery.med.ubc.ca/people/jmorris/"  target="_blank">W. James Morris</a>,
-              <a href="https://scholar.google.com/citations?user=cA0ELoQAAAAJ&hl=en/"  target="_blank">S. Sara Mahdavi</a>,
-              <a href="https://scholar.google.com/citations?user=kpp_A9wAAAAJ&hl=en&oi=ao/"  target="_blank">Septimiu E. Salcudean</a>
+              <a href="https://sites.google.com/view/ipcai2022/home/" target="_blank"><em>Information Processing in Computer-Assisted Interventions (IPCAI)</em></a>, Tokyo, Japan, 2022
               <br>
-
-              <a href="https://sites.google.com/view/ipcai2022/home/" target="_blank"><em>IPCAI</em></a>, 2022 <font color="red"><strong> (Oral Presentation; Young Investigator Travel Award)</strong></font> &nbsp
+              <font color="red"><strong> (Oral Presentation; Young Investigator Travel Award)</strong></font> &nbsp
               <br>
-              [ <a
-                      href="https://rdcu.be/cKKFX" target="_blank">Paper</a> &nbsp|&nbsp
+              [ <a href="https://rdcu.be/cKKFX" target="_blank">Paper</a> &nbsp|&nbsp
               <a href="https://github.com/tajwarabraraleef/TTMB-biopsy-core-registration" target="_blank">Code</a> ]
               </div></div>
               <p></p>
@@ -263,8 +520,7 @@
                 <div class="text_just">
                 This framework uses information taken from the existing workflow of transperineal template mapping
                 biopsy (such as the needle insertion point and depth) to register the pathology of the cores to
-                pre-operative ultrasound volumes. Pathology of the cores will be used as labels to train prostate
-                cancer classifiers using multi-parametric ultrasound volumes.
+                pre-operative ultrasound volumes automatically. No prior method exists for this.
                 </div></div>
             </td>
               </div>
@@ -281,9 +537,9 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="one">
                 <div class="two" id='tpgan_image'>
-                <img src="images/tpgans2.gif" width="160">
+                <img src="images/tpgans.gif" width="160" style="border-radius:5%">
                 </div>
-                <img src='images/tpgan3.png' width="160">
+                <img src='images/tpgan3.png' width="160" style="border-radius:5%">
               </div>
               <script type="text/javascript">
                 function tpgan_start() {
@@ -299,21 +555,15 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="paper_title">
               <div class="paper_title_center">
-                <papertitle>Rapid treatment planning for low-dose-rate prostate brachytherapy with
-                  TP-GAN</papertitle>
+              <papertitle>Rapid treatment planning for low-dose-rate prostate brachytherapy with TP-GAN</papertitle>
               <br>
-             <strong>Tajwar Abrar Aleef</strong>,
-              <a href="https://bmiai.ubc.ca/people/ingrid-spadinger" target="_blank">Ingrid T. Spadinger</a>,
-              <a href="https://surgery.med.ubc.ca/people/m-peacock//" target="_blank">Michael D. Peacock</a>,
-              <a href="https://scholar.google.com/citations?user=kpp_A9wAAAAJ&hl=en&oi=ao/" target="_blank">Septimiu E. Salcudean</a>,
-              <a href="https://scholar.google.com/citations?user=cA0ELoQAAAAJ&hl=en/" target="_blank">S. Sara Mahdavi</a>
+              <a href="https://miccai2021.org/en/" target="_blank"><em>Medical Image Computing and Computer Assisted Intervention (MICCAI)</em></a>, Strasbourg, France, 2021
               <br>
-
-              <a href="https://miccai2021.org/en/" target="_blank"><em>MICCAI</em></a>, 2021 <font color="red"><strong> (Oral Presentation)</strong></font> &nbsp
+              <font color="red"><strong>(Oral Presentation)</strong></font> &nbsp
               <br>
-              [ <a href="https://www.rsipvision.com/MICCAI2021-Tuesday/4/" target="_blank">Interview</a> &nbsp|&nbsp
-              <a
-                      href="https://link.springer.com/epdf/10.1007/978-3-030-87202-1_56?sharing_token=XMfrj1i6h4Yx_eUeGvt4wve4RwlQNchNByi7wbcMAY5jIjVfLm7XRSlmEv2IA6krH_IFYovsRiFpSRmT2CoGwloGMqfCD3mGIDC9b___FUR8--m1mXocrJswEGo5TwyTHVF7eAu1ByAYvDM42pkrhy06tvrXUWcTwidPAkeJb2k%3D" target="_blank">Paper</a> &nbsp|&nbsp
+              [
+              <a href="https://link.springer.com/epdf/10.1007/978-3-030-87202-1_56?sharing_token=XMfrj1i6h4Yx_eUeGvt4wve4RwlQNchNByi7wbcMAY5jIjVfLm7XRSlmEv2IA6krH_IFYovsRiFpSRmT2CoGwloGMqfCD3mGIDC9b___FUR8--m1mXocrJswEGo5TwyTHVF7eAu1ByAYvDM42pkrhy06tvrXUWcTwidPAkeJb2k%3D" target="_blank">Paper</a> &nbsp|&nbsp
+              <a href="https://www.rsipvision.com/MICCAI2021-Tuesday/4/" target="_blank">Interview</a> &nbsp|&nbsp
               <a href="https://arxiv.org/abs/2103.09996" target="_blank">arXiv</a> &nbsp|&nbsp
               <a href="https://github.com/tajwarabraraleef/TP-GAN" target="_blank">Code</a> ]
               </div></div>
@@ -333,8 +583,8 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="one">
                 <div class="two" id='cgan_image'>
-                <img src="images/cGAns2.png"></div>
-                <img src="images/cGAns1.png">
+                <img src="images/cGAns2.png" width=160 style="border-radius:5%"></div>
+                <img src="images/cGAns11.png" width=160 style="border-radius:5%">
               </div>
               <script type="text/javascript">
                 function cgan_start() {
@@ -350,23 +600,16 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="paper_title">
               <div class="paper_title_center">
-                <papertitle>Centre-specific autonomous treatment plans for prostate brachytherapy using cGANs</papertitle>
+              <papertitle>Centre-specific autonomous treatment plans for prostate brachytherapy using cGANs</papertitle>
               <br>
-              <strong>Tajwar Abrar Aleef</strong>,
-              <a href="https://bmiai.ubc.ca/people/ingrid-spadinger" target="_blank">Ingrid T. Spadinger</a>,
-              <a href="https://surgery.med.ubc.ca/people/m-peacock//" target="_blank">Michael D. Peacock</a>,
-              <a href="https://scholar.google.com/citations?user=kpp_A9wAAAAJ&hl=en&oi=ao/" target="_blank">Septimiu E. Salcudean</a>,
-              <a href="https://scholar.google.com/citations?user=cA0ELoQAAAAJ&hl=en/" target="_blank">S. Sara Mahdavi</a>
+              <a href="http://www.ipcai.org/" target="_blank"><em>Information Processing in Computer-Assisted Interventions (IPCAI)</em></a>, Munich, Germany, 2021 &nbsp
               <br>
-              <a href="http://www.ipcai.org/" target="_blank"><em>IPCAI</em></a>, 2021 &nbsp <font color="red"><strong>(Oral
-              Presentation, Honorary Award for Best Presentation)</strong></font>
+              <font color="red"><strong>(Oral Presentation, Honorary Award for Best Presentation)</strong></font>
               <br>
-              [ <a
-                    href="https://link.springer.com/epdf/10.1007/s11548-021-02405-1?sharing_token=MF1oEwRa6pGvFm32e8Vr-fe4RwlQNchNByi7wbcMAY5yK2t79Ld1LyvKdj4O86W-eJKERMX3fzzIoHbqG-VEdFfJckkkJN2Ef8MXj0pOqOwczUkeIispcquibso5I5D-7lIbdYguIuMWBHSBiq5Mv-_2k9dM1RCjxDcts7JUf_TgSQuKqlEQNG_F6C1BZm1J" target="_blank">Paper</a>
-              &nbsp|&nbsp
-              <a href="https://www.youtube.com/watch?v=F5kOCjiZpR4&ab_channel=OrcunGoksel" target="_blank">Video</a> &nbsp|&nbsp
-              <a href="https://github.com/tajwarabraraleef/3Dpix2pix-for-prostate-brachytherapy" target="_blank">Code
-              </a> ]
+              [ <a href="https://link.springer.com/epdf/10.1007/s11548-021-02405-1?sharing_token=MF1oEwRa6pGvFm32e8Vr-fe4RwlQNchNByi7wbcMAY5yK2t79Ld1LyvKdj4O86W-eJKERMX3fzzIoHbqG-VEdFfJckkkJN2Ef8MXj0pOqOwczUkeIispcquibso5I5D-7lIbdYguIuMWBHSBiq5Mv-_2k9dM1RCjxDcts7JUf_TgSQuKqlEQNG_F6C1BZm1J" target="_blank">Paper</a> &nbsp|&nbsp
+                <!-- <a href="https://www.youtube.com/watch?v=F5kOCjiZpR4&ab_channel=OrcunGoksel" target="_blank">Video</a> &nbsp|&nbsp -->
+                <a href="https://github.com/tajwarabraraleef/3Dpix2pix-for-prostate-brachytherapy" target="_blank">Code</a>
+               ]
               </div></div>
                 <p></p>
               <div style="text-align: left"><div class="text_just">
@@ -382,8 +625,8 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="one">
                 <div class="two" id='coseg_image'>
-                <img src="images/coseg2.png"></div>
-                <img src='images/coseg1.png'>
+                <img src="images/coseg2.gif" width=160 style="border-radius:5%"></div>
+                <img src='images/coseg.png' width=160 style="border-radius:5%">
               </div>
               <script type="text/javascript">
                 function coseg_start() {
@@ -401,16 +644,10 @@
               <div class="paper_title_center">
                 <papertitle>Co-Generation and Segmentation for Generalized Surgical Instrument Segmentation on
                   Unlabelled Data</papertitle>
-              <br>
-              <a href="https://scholar.google.com/citations?user=eoCliRUAAAAJ&hl=en" target="_blank">Megha Kalia**</a>,
-              <strong>Tajwar Abrar Aleef**</strong>,
-              <a href="https://scholar.google.com/citations?user=kzoVUPYAAAAJ&hl=en" target="_blank">Nassir Navab</a>,
-              <a href="https://scholar.google.com/citations?user=B-SSpDcAAAAJ&hl=en" target="_blank">Peter Black</a>,
-              <a href="https://scholar.google.com/citations?user=kpp_A9wAAAAJ&hl=en" target="_blank">Septimiu E. Salcudean</a>
-
-              <br>
-              <a href="https://miccai2021.org/en/" target="_blank"><em>MICCAI</em></a>, 2021 (** joint first author) <font
-                      color="red"><strong> (Oral Presentation, MICCAI travel award)</strong></font> &nbsp
+                  <br>
+                  <a href="https://miccai2021.org/en/" target="_blank"><em>Medical Image Computing and Computer Assisted Intervention (MICCAI)</em></a>, Strasbourg, France, 2021
+                  <br>
+                  <font color="red"><strong> (Oral Presentation; MICCAI travel award)</strong></font> &nbsp
               <br>
               [ <a
                       href="https://link.springer.com/epdf/10.1007/978-3-030-87202-1_39?sharing_token=ajyXq8Wr3FCN1w3fyLJl8Pe4RwlQNchNByi7wbcMAY5jIjVfLm7XRSlmEv2IA6krM3ROQ4V5ULwAWxb1Fz1mjdUQpDH8xAMq7sZpoXcVl4OqoN-UhGwS7-zUQzcYkh2GLoe6K_NG9vQWW0ymts1VTzBXvGJ2c7haUWox0a-JqEM%3D" target="_blank">Paper</a> &nbsp|&nbsp
@@ -420,53 +657,12 @@
               </div></div>
               <p></p>
               <div style="text-align: left"><div class="text_just">
-             We propose a novel joint generation and segmentation strategy to learn a segmentation model with generalization capability to domains containing no labeled data. Such a technique is crucial in this application as there exists only limited labeled surgical robot-assisted prostatectomy data.
-              </div></div>
+             A novel joint generation and segmentation strategy designed to train a segmentation model with generalization capability to domains containing no labeled data.
+             This strategy solves the issue of having limited labeled data for actual robot-assisted surgery procedures.               </div></div>
             </td>
           </tr>
 
 
-<!--Thyroid-->
-<!--        -->
-          <tr onmouseout="thyroid_stop()" onmouseover="thyroid_start()">
-            <td style="padding:20px;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='thyroid_image'>
-                  <img src='images/thyroid2.png' width="160"></div>
-                <img src='images/thyroid1.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function thyroid_start() {
-                  document.getElementById('thyroid_image').style.opacity = "1";
-                }
-
-                function thyroid_stop() {
-                  document.getElementById('thyroid_image').style.opacity = "0";
-                }
-                thyroid_stop()
-              </script>
-            </td>
-            <td style="padding:20px;vertical-align:middle">
-              <div class="paper_title">
-              <div class="paper_title_center">
-                <papertitle>Thyroid Nodule Segmentation</papertitle>
-
-              <br>
-              <strong>Tajwar Abrar Aleef</strong>,
-              <a href="https://scholar.google.com/citations?hl=en&user=ExMye5IAAAAJ/" target="_blank">Hasib Zunair</a>
-              <br>
-              <a href='https://tn-scui2020.grand-challenge.org/' target="_blank"><em>MICCAI TN-SCUI Challenge</em></a>, 2020
-              <br>
-<!--              [ <a href="https://ieeexplore.ieee.org/abstract/document/9230708" target="_blank">Paper-->
-<!--              </a> ]-->
-              </div></div>
-              <p></p>
-              <div style="text-align: left"><div class="text_just">
-              In this work, several state-of-the-art image segmentation techniques were explored for optimizing Thyroid Nodule segmentation from Ultrasound
-                images. This inlcuded supervised learning, transfer learning, and generative adversarial learning.
-              </div></div>
-            </td>
-          </tr>
 
 
 <!--Automatic Mass-->
@@ -475,8 +671,8 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="one">
                 <div class="two" id='mass_image'>
-                  <img src='images/mass2.png' width="160"></div>
-                <img src='images/mass1.png' width="160">
+                  <img src='images/mass2.png' width="160" style="border-radius:5%"></div>
+                <img src='images/mass1.png' width="160" style="border-radius:5%">
               </div>
               <script type="text/javascript">
                 function mass_start() {
@@ -493,19 +689,13 @@
               <div class="paper_title">
               <div class="paper_title_center">
                 <papertitle>Automatic Mass Classification in Breast Using Transfer Learning of Deep Convolutional Neural Network and Support Vector Machine</papertitle>
-
-              <br>
-              <a href="https://scholar.google.com/citations?user=36WXELIAAAAJ&hl=en" target="_blank">Md.
-                Kamrul Hasan</a>,
-              <strong>Tajwar Abrar Aleef</strong>,
-                <a href="https://scholar.google.com/citations?hl=en&user=ExMye5IAAAAJ/" target="_blank">Shidhartho
-                  Roy</a>
               <br>
               <a href='https://ieeexplore.ieee.org/xpl/conhome/9230456/proceeding' target="_blank"><em>IEEE
-                Region 10 Symposium (TENSYMP)</em></a>, 2020 <font color="red"><strong> (Oral Presentation)</strong></font>
+                Region 10 Symposium (TENSYMP)</em></a>, 2020
               <br>
-              [ <a href="https://ieeexplore.ieee.org/abstract/document/9230708" target="_blank">Paper
-              </a> ]
+              <font color="red"><strong> (Oral Presentation)</strong></font>
+              <br>
+              [ <a href="https://ieeexplore.ieee.org/abstract/document/9230708" target="_blank">Paper</a> ]
               <br>
               </div></div>
               <p></p>
@@ -517,63 +707,6 @@
 
 
 
-<!--Lung nodule malignacy-->
-<!--        -->
-          <tr onmouseout="ln_stop()" onmouseover="ln_start()">
-            <td style="padding:20px;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='ln_image'>
-                  <img src='images/ln2.png'></div>
-                <img src='images/ln1.png'>
-              </div>
-              <script type="text/javascript">
-                function ln_start() {
-                  document.getElementById('ln_image').style.opacity = "1";
-                }
-
-                function ln_stop() {
-                  document.getElementById('ln_image').style.opacity = "0";
-                }
-                ln_stop()
-              </script>
-            </td>
-            <td style="padding:20px;vertical-align:middle">
-              <div class="paper_title">
-              <div class="paper_title_center">
-                <papertitle>Malignancy estimation of pulmonary nodules using multi-view multi-time point convolutional neural networks</papertitle>
-
-              <br>
-              <strong>Tajwar Abrar Aleef</strong>,
-              <a
-                      href="https://scholar.google.com/citations?hl=en&user=afUvm7gAAAAJ&view_op=list_works&sortby=pubdate/" target="_blank">Colin Jacobs</a>,
-              <a href="https://scholar.google.com/citations?user=O1j6_MsAAAAJ&hl=en/" target="_blank">Bram van Ginneken</a>
-              <br>
-              <em>MSc Thesis, <a href="https://www.diagnijmegen.nl/" target="_blank">DIAG</a>,
-                Radboudumc</em>, 2018
-              &nbsp <font
-                    color="red"><strong>(Ranked Top 2nd)</strong></font>
-              <br>
-<!--              [<a href="">Thesis</a>-->
-<!--              /-->
-<!--              <a href="">Poster</a>-->
-<!--              /-->
-<!--              <a href="">Code</a>-->
-<!--              /-->
-<!--              <a href="">Short Paper</a>]-->
-              </div></div>
-              <p></p>
-              <div style="text-align: left"><div class="text_just">
-              A novel multi-view multi-timepoint convolutional neural network (MVMT-CNN) was proposed to estimate malignancy in pulmonary lung nodules. We utilize scans of patients taken over time- providing the network with information on disease progression. This technique produced state-of-the-art results compared to standard single time-point disease estimation.
-              </div></div>
-            </td>
-          </tr>
-
-
-
-
-
-
-
 
 
 <!--Antenna IET-->
@@ -582,8 +715,8 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="one">
                 <div class="two" id='ant_image'>
-                  <img src='images/ant4.png' width="160"></div>
-                <img src='images/ant3.png' width="160">
+                  <img src='images/ant4.png' width="160" style="border-radius:5%"></div>
+                <img src='images/ant3.png' width="160" style="border-radius:5%">
               </div>
               <script type="text/javascript">
                 function ant_start() {
@@ -600,69 +733,16 @@
               <div class="paper_title">
               <div class="paper_title_center">
                 <papertitle>Design, Measurement and Performance Enhancement of a Miniaturized Implantable Antenna for Biomedical Applications</papertitle>
-
               <br>
-              <strong>Tajwar Abrar Aleef</strong>,
-              <a href="https://scholar.google.com/citations?user=nbybbQ4AAAAJ&hl=en&oi=ao/" target="_blank">Yeman Brhane Hagos</a>,
-              Vu Hoang Minh,
-              <a href="https://scholar.google.com/citations?hl=en&user=0fbX-_kAAAAJ/" target="_blank">Saed Khawaldeh</a>,
-              <a href="https://scholar.google.com/citations?user=imbYFrcAAAAJ&hl=en/" target="_blank">Usama Pervaiz</a>,
-              <br>
-              <a
-                      href='https://ietresearch.onlinelibrary.wiley.com/journal/17500443' target="_blank"><em>Micro & Nano
+                <a  href='https://ietresearch.onlinelibrary.wiley.com/journal/17500443' target="_blank"><em>Micro & Nano
                 Letters</em></a>, 2017
               <br>
-              [ <a href="https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/mnl.2017.0272" target="_blank">Paper
-              </a> ]
+              [ <a href="https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/mnl.2017.0272" target="_blank">Paper</a> ]
               <br>
               </div></div>
               <p></p>
               <div style="text-align: left"><div class="text_just">
                 A biomedical antenna was designed for wireless communication from inside a living body. The operating band for this antenna is in the Industrial, Scientific, and Medical band (2.4–2.48 GHz). The tiny dimension of the antenna with the 9.45 μm thickness of the patch allows it to be highly flexible- providing excellent results even in extreme conditions where the antenna conforms along the curvature of the body.
-              </div></div>
-            </td>
-          </tr>
-
-
-<!--CNN regressor-->
-<!--        -->
-          <tr onmouseout="cnnreg_stop()" onmouseover="cnnreg_start()">
-            <td style="padding:20px;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='cnnreg_image'>
-                  <img src='images/cnnreg2.png' width="160"></div>
-                <img src='images/cnnreg1.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function cnnreg_start() {
-                  document.getElementById('cnnreg_image').style.opacity = "1";
-                }
-
-                function cnnreg_stop() {
-                  document.getElementById('cnnreg_image').style.opacity = "0";
-                }
-                cnnreg_stop()
-              </script>
-            </td>
-            <td style="padding:20px;vertical-align:middle">
-              <div class="paper_title">
-              <div class="paper_title_center">
-                <papertitle>CNN regressor for automating treatment planning of cervical brachytherapy</papertitle>
-              <br>
-              <strong>Tajwar Abrar Aleef</strong>,
-              <a href="https://scholar.google.com/citations?user=pKFkfq4AAAAJ&hl=en/" target="_blank">Marius Staring</a>,
-              <a href="https://scholar.google.com/citations?user=JUdMRGcAAAAJ&hl=en&oi=ao/" target="_blank">Jan van Gemert</a>
-              <br>
-              <a href="https://lkeb.lumc.nl/" target="_blank"><em>LKEB,</em></a> LUMC, 2017
-              <br>
-              [ <a href="https://github.com/tajwarabraraleef/Registration-using-CNN-STN-ICSTN/tree/master/assets/report" target="_blank">Report</a> &nbsp|&nbsp
-              <a href="https://github.com/tajwarabraraleef/Registration-using-CNN-STN-ICSTN" target="_blank">Code
-              </a> ]
-
-              </div></div>
-              <p></p>
-              <div style="text-align: left"><div class="text_just">
-              Developed a framework using CNNs that can predict the geometric transformation of an object based on a target. The idea was to analyze if such a regression network can be used to find the transformation parameters of a brachytherapy applicator in the cervix from MRI scans; hence pinpointing the exact location of the device within the body.
               </div></div>
             </td>
           </tr>
@@ -675,8 +755,8 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="one">
                 <div class="two" id='fast_image'>
-                  <img src='images/fast2.png' width="160"></div>
-                <img src='images/fast1.png' width="160">
+                  <img src='images/fast2.png' width="160" style="border-radius:5%"></div>
+                <img src='images/fast1.png' width="160" style="border-radius:5%">
               </div>
               <script type="text/javascript">
                 function fast_start() {
@@ -694,13 +774,7 @@
               <div class="paper_title_center">
                 <papertitle>Fast pet scan tumor segmentation using superpixels, principal component analysis and k-means clustering</papertitle>
               <br>
-              <a href="https://scholar.google.com/citations?user=nbybbQ4AAAAJ&hl=en&oi=ao/" target="_blank">Yeman Brhane Hagos</a>,
-              Vu Hoang Minh,
-              <a href="https://scholar.google.com/citations?hl=en&user=0fbX-_kAAAAJ/" target="_blank">Saed Khawaldeh</a>,
-              <a href="https://scholar.google.com/citations?user=imbYFrcAAAAJ&hl=en/" target="_blank">Usama Pervaiz</a>,
-              <strong>Tajwar Abrar Aleef</strong>
-              <br>
-              <a href="https://www.mdpi.com/journal/mps" target="_blank"><em>Methods and Protocols</em></a>, 2018
+                <a href="https://www.mdpi.com/journal/mps" target="_blank"><em>Methods and Protocols</em></a>, 2018
               <br>
               [ <a href="https://www.mdpi.com/2409-9279/1/1/7" target="_blank">Paper</a> ]
               </div></div>
@@ -711,14 +785,58 @@
             </td>
           </tr>
 
+
+
+
+<!--CNN regressor-->
+<!--        -->
+          <tr onmouseout="cnnreg_stop()" onmouseover="cnnreg_start()">
+            <td style="padding:20px;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='cnnreg_image'>
+                  <img src='images/cnnreg2.png' width="160" style="border-radius:5%"></div>
+                <img src='images/cnnreg1.png' width="160" style="border-radius:5%">
+              </div>
+              <script type="text/javascript">
+                function cnnreg_start() {
+                  document.getElementById('cnnreg_image').style.opacity = "1";
+                }
+
+                function cnnreg_stop() {
+                  document.getElementById('cnnreg_image').style.opacity = "0";
+                }
+                cnnreg_stop()
+              </script>
+            </td>
+            <td style="padding:20px;vertical-align:middle">
+              <div class="paper_title">
+              <div class="paper_title_center">
+                <papertitle>CNN regressor for automating treatment planning of cervical brachytherapy</papertitle>
+                <br>
+              <a href="https://lkeb.lumc.nl/" target="_blank"><em>LKEB</em></a>, Leiden University Medical Center, Netherlands, 2017
+              <br>
+              [ <a href="https://github.com/tajwarabraraleef/Registration-using-CNN-STN-ICSTN/tree/master/assets/report" target="_blank">Report</a> &nbsp|&nbsp
+              <a href="https://github.com/tajwarabraraleef/Registration-using-CNN-STN-ICSTN" target="_blank">Code
+              </a> ]
+              <br>
+              </div></div>
+              <p></p>
+              <div style="text-align: left"><div class="text_just">
+              Developed a framework using CNNs that can predict the geometric transformation of an object based on a target. The idea was to analyze if such a regression network can be used to find the transformation parameters of a brachytherapy applicator in the cervix from MRI scans; hence pinpointing the exact location of the device within the body.
+              </div></div>
+            </td>
+          </tr>
+
+
+
 <!--3D scanning-->
 <!--        -->
        <tr onmouseout="scan_stop()" onmouseover="scan_start()">
             <td style="padding:20px;vertical-align:middle">
               <div class="one">
                 <div class="two" id='scan_image'>
-                  <img src='images/3dscan.gif' width="160"></div>
-                <img src='images/3dscan.jpg' width="160">
+                  <img src='images/3dscan.gif' width="160" style="border-radius:5%"></div>
+                <img src='images/3dscan.jpg' width="160" style="border-radius:5%">
               </div>
               <script type="text/javascript">
                 function scan_start() {
@@ -735,13 +853,10 @@
                <div class="paper_title">
               <div class="paper_title_center">
                 <papertitle>Complete End-To-End Low Cost Solution To a 3D Scanning System with Integrated Turntable</papertitle>
-              <br>
-              <a href="https://scholar.google.com/citations?hl=en&user=0fbX-_kAAAAJ/" target="_blank">Saed Khawaldeh</a>,
-              <strong>Tajwar Abrar Aleef</strong>,
-              <a href="https://scholar.google.com/citations?user=imbYFrcAAAAJ&hl=en/" target="_blank">Usama Pervaiz</a>,
-              <a href="https://scholar.google.com/citations?user=nbybbQ4AAAAJ&hl=en&oi=ao/" target="_blank">Yeman Brhane Hagos</a>,
-              Vu Hoang Minh<br>
-              [ <a href="https://arxiv.org/abs/1709.02247" target="_blank">arXiv</a> ]
+                <br>
+                <a href="https://www.u-bourgogne.fr/" target="_blank"><em>University of Burgundy</em></a>, France, 2016
+                <br>
+                [ <a href="https://arxiv.org/abs/1709.02247" target="_blank">arXiv</a> ]
               </div></div>
                 <p></p>
               <div style="text-align: left"><div class="text_just">
@@ -758,8 +873,8 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="one">
                 <div class="two" id='skin_cancer_image'>
-                  <img src='images/skin_cancer2.png' width="160"></div>
-                <img src='images/skin_cancer1.png' width="160">
+                  <img src='images/skin_cancer2.png' width="160" style="border-radius:5%"></div>
+                <img src='images/skin_cancer1.png' width="160" style="border-radius:5%">
               </div>
               <script type="text/javascript">
                 function skin_cancer_start() {
@@ -777,7 +892,7 @@
               <div class="paper_title_center">
                 <papertitle>Skin Cancer Diagnosis Tool</papertitle>
                 <br>
-              <strong>Tajwar Abrar Aleef</strong>, Yuliia Kamkova
+                <a href="https://www.udg.edu/en/" target="_blank"><em>University of Girona</em></a>, Spain, 2017
               <br>
               [ <a href="https://github.com/tajwarabraraleef/Skin-Cancer-Diagnosis-Tool#" target="_blank">Code</a> ]
               <br>
@@ -796,8 +911,8 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="one">
                 <div class="two" id='retina_image'>
-                  <img src='images/retina2.png' width="160"></div>
-                <img src='images/retina1.png' width="160">
+                  <img src='images/retina2.png' width="160" style="border-radius:5%"></div>
+                <img src='images/retina1.png' width="160" style="border-radius:5%">
               </div>
               <script type="text/javascript">
                 function retina_start() {
@@ -814,8 +929,8 @@
               <div class="paper_title">
               <div class="paper_title_center">
                 <papertitle>Study of Macular Lesion classification and Retinal vessel segmentation using deep learning techniques</papertitle>
-                <br>
-              <strong>Tajwar Abrar Aleef</strong>, Yuliia Kamkova
+              <br>
+                <a href="https://www.udg.edu/en/" target="_blank"><em>University of Girona</em></a>, Spain, 2017
               <br>
 <!--              [ <a href="https://github.com/tajwarabraraleef/Skin-Cancer-Diagnosis-Tool#" target="_blank">Code</a> ]-->
 <!--              <br>-->
@@ -823,7 +938,7 @@
               <p></p>
               <div style="text-align: left"><div class="text_just">
               In this work, first, a classification problem was tackled for classifying macular patches into three classes. Several deep learning approaches
-                were studied including pre-trained models such as the AlexNet, VGG, GoogleNet, and resNet50. For Retinal vessel segmentation, a patch-based segmentation approach was used, where, a simple CNN architecture was trained using 120,000 patches taken from the training set.
+                were studied including pre-trained models such as the AlexNet, VGG, GoogleNet, and resNet50. For Retinal vessel segmentation, a patch-based segmentation approach was used.
               </div></div>
             </td>
           </tr>
@@ -838,8 +953,8 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="one">
                 <div class="two" id='heart_image'>
-                  <img src='images/heart.gif' width="160"></div>
-                <img src='images/heart1.jpg' width="160">
+                  <img src='images/heart.gif' width="160" style="border-radius:5%"></div>
+                <img src='images/heart1.jpg' width="160" style="border-radius:5%">
               </div>
               <script type="text/javascript">
                 function heart_start() {
@@ -856,16 +971,52 @@
               <div class="paper_title">
               <div class="paper_title_center">
                 <papertitle>Heart flow analysis in ECG-gated cardiac Ultrasound</papertitle>
-<br>
-              <strong>Tajwar Abrar Aleef</strong>,
-              <a href="https://scholar.google.com/citations?user=nbybbQ4AAAAJ&hl=en&oi=ao/" target="_blank">Yeman Brhane Hagos</a>,
-              Vu Hoang Minh
               <br>
+                <a href="https://www.unicas.it/" target="_blank"><em>University of Cassino</em></a>, Italy, 2017
+                <br>
 <!--              [ <a href="">code</a> ]-->
               </div></div>
               <p></p>
               <div style="text-align: left"><div class="text_just">
                Automatic spatio-temporal analysis of cardiac flow was performed using Lucas Kanade and Farneback optical flow techniques. This method tracks the ventricle wall and displays sparse and dense patterns of the vector field of the blood flow. Local and global maximum velocities of the flow are also calculated and displayed for each frame. If any vorticity is detected, it is displayed using colormaps.
+              </div></div>
+            </td>
+          </tr>
+
+          <!--Thyroid-->
+<!--        -->
+          <tr onmouseout="thyroid_stop()" onmouseover="thyroid_start()">
+            <td style="padding:20px;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='thyroid_image'>
+                  <img src='images/thyroid2.png' width="160" style="border-radius:5%"></div>
+                <img src='images/thyroid1.png' width="160" style="border-radius:5%">
+              </div>
+              <script type="text/javascript">
+                function thyroid_start() {
+                  document.getElementById('thyroid_image').style.opacity = "1";
+                }
+
+                function thyroid_stop() {
+                  document.getElementById('thyroid_image').style.opacity = "0";
+                }
+                thyroid_stop()
+              </script>
+            </td>
+            <td style="padding:20px;vertical-align:middle">
+              <div class="paper_title">
+              <div class="paper_title_center">
+                <papertitle>Thyroid Nodule Segmentation</papertitle>
+              <br>
+              <a href='https://tn-scui2020.grand-challenge.org/' target="_blank"><em>MICCAI TN-SCUI Challenge</em></a>, 2020
+              <br>
+<!--              [ <a href="https://ieeexplore.ieee.org/abstract/document/9230708" target="_blank">Paper-->
+<!--              </a> ]-->
+              </div></div>
+              <p></p>
+              <div style="text-align: left"><div class="text_just">
+              In this work, several state-of-the-art image segmentation techniques were explored for optimizing Thyroid Nodule segmentation from Ultrasound
+                images. This inlcuded supervised learning, transfer learning, and generative adversarial learning.
               </div></div>
             </td>
           </tr>
@@ -877,23 +1028,28 @@
 
 <!--Engineering projects-->
 <!--        -->
+
+        <p id="Projects"><br><br></p>
         <table
-                style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-top:0px;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:20px;vertical-align:middle">
               <div class="heading_center">
               <heading>Past Engineering Projects</heading>
               </div>
               <p style="text-align: left"><div class="text_just">
-              I always enjoyed hands-on work. Even long before I got any formal education or training on engineering, I was often found meddling around with electronic devices I could get my hands on. The goal was to take them apart, learn how they operate, and "hopefully" make something new out of it. Although I started doing this from a very young age, I only started documenting when my parents got me a digital camera. I have added some of these documented builds below (most of them are from my high school and freshman year). Scroll to the bottom to see some janky yet wonderful rovers I made literally out of cardboard and salvaged parts from old toys.
+              I always enjoyed hands-on work. Even long before I got any formal education or engineering training,
+              I was often found meddling around with any devices I could get my hands on.
+              The goal was to take them apart, learn how they operate, and "hopefully" make something new out of it.
+              Although I have been doing this from a very young age, I only have a few works that were documented (thanks to my Mom for getting me the camera!).
+              Scroll to the bottom to see some janky yet wonderful rovers I made literally out of cardboard and salvaged parts from old toys.
               </div></p>
-
             </td>
           </tr>
         </tbody></table>
 
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-top:-40px;margin-right:auto;margin-left:auto;"><tbody>
 
 
 <!--Robotic Arm-->
@@ -902,9 +1058,9 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="one">
                 <div class="two" id='arm_image'>
-                <img src="images/Arm.gif">
+                <img src="images/Arm.gif" style="border-radius:5%">
                 </div>
-                <img src='images/Arm_med.jpg' width="160">
+                <img src='images/Arm_med.jpg' width="160" style="border-radius:5%">
               </div>
               <script type="text/javascript">
                 function arm_start() {
@@ -920,13 +1076,13 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="paper_title">
               <div class="paper_title_center">
-                <papertitle>5-Axis Robotic Arm</papertitle>
+                <papertitle>Robotic Arm</papertitle>
               <br>
               [ <a href="https://youtu.be/zGz-Ilaczoo" target="_blank">Video</a> ]
               </div></div>
               <p></p>
               <div style="text-align: left"><div class="text_just">
-              Made this totally from scratch and with no access to proper tools. The parts were scorched and carved out of plastic sheets with just a box cutter. Rubber from a balloon was stapled onto the gripper for extra grip (my mom's idea). The 6 servos at each articulation point are controlled by an Arduino Mega board. The program I wrote for this uses inverse kinematics to control the position of the end effector. In the hyperlinked video, the arm is programmed to move to position A, grab the object, take it to position B, rotate it, and drop it.
+              Made this totally from scratch and with no access to any 3D print or any proper tools. The parts were scorched and carved out of plastic sheets with just a box cutter. Rubber from a balloon was stapled onto the gripper for extra grip (my Mom's idea). The 6 servos at each articulation point are controlled with an Arduino Mega board. The program I wrote for this uses inverse kinematics to control the position of the end effector. In the hyperlinked video, the arm is programmed to move to position A, grab the object, take it to position B, rotate it, and drop it.
               </div></div>
             </td>
           </tr>
@@ -938,9 +1094,9 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="one">
                 <div class="two" id='firebot_image'>
-                <img src="images/firebot.gif">
+                <img src="images/firebot.gif" style="border-radius:5%">
                 </div>
-                <img src='images/firebot.jpg' width="160">
+                <img src='images/firebot.jpg' width="160" style="border-radius:5%">
               </div>
               <script type="text/javascript">
                 function firebot_start() {
@@ -956,7 +1112,7 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="paper_title">
               <div class="paper_title_center">
-              <papertitle>Firefighting Bot</papertitle>
+              <papertitle>Firefighting Bot Concept</papertitle>
               <br>
               [ <a href="https://youtu.be/iWBHc8A4hWQ" target="_blank">Video</a> ]
               </div></div>
@@ -974,9 +1130,9 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="one">
                 <div class="two" id='surv_image'>
-                <img src="images/surv.gif">
+                <img src="images/surv.gif" style="border-radius:5%">
                 </div>
-                <img src='images/surv.png' width="160">
+                <img src='images/surv.png' width="160" style="border-radius:5%">
               </div>
               <script type="text/javascript">
                 function surv_start() {
@@ -998,7 +1154,7 @@
               </div></div>
               <p></p>
               <div style="text-align: left"><div class="text_just">
-              Here, I made a custom android controller allowing teleoperation of the robot over Bluetooth. Another Android phone mounted on the robot acts as an IP camera and sends a live video feed to the operator. The robot can also automatically avoid obstacles using its onboard sonar sensor.
+              Here, I made a custom android controller allowing teleoperation of the robot over Bluetooth with an Android phne. Another Android phone mounted on the robot acts as an IP camera and sends a live video feed to the operator. The robot can also automatically avoid obstacles using its onboard sonar sensor.
               </div></div>
             </td>
           </tr>
@@ -1011,9 +1167,9 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="one">
                 <div class="two" id='sonar_image'>
-                <img src="images/sonar2.png">
+                <img src="images/sonar2.gif" style="border-radius:5%">
                 </div>
-                <img src='images/sonar1.jpg' width="160">
+                <img src='images/sonar1.jpg' width="160" style="border-radius:5%">
               </div>
               <script type="text/javascript">
                 function sonar_start() {
@@ -1049,9 +1205,9 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="one">
                 <div class="two" id='manbot_image'>
-                <img src="images/manbot.gif">
+                <img src="images/manbot.gif" style="border-radius:5%">
                 </div>
-                <img src='images/manbot.png' width="160">
+                <img src='images/manbot.png' width="160" style="border-radius:5%">
               </div>
               <script type="text/javascript">
                 function manbot_start() {
@@ -1067,14 +1223,13 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="paper_title">
               <div class="paper_title_center">
-                <papertitle>Smart Line Follower</papertitle>
+              <papertitle>Smart Line Follower</papertitle>
               <br>
-              [ <a href="https://youtu.be/fsvVbdsJ3fM" target="_blank">Video
-                </a> (contains unprofessional jokes!)]
+              [ <a href="https://youtu.be/fsvVbdsJ3fM" target="_blank">Video</a> (warning! contains unfit jokes) ]
               </div></div>
               <p></p>
               <div style="text-align: left"><div class="text_just">
-              In my freshman year, as I started learning more about logic gates. I decided to make a line follower out of just logic gates. Happy with the results, I wanted to see how much is possible with logic gates alone and with no microcontroller. The robot has 1 bit of memory made from 1 JK flip-flop (also made out of logic gates) which stores the state of the robot. If the robot detects a payload, it will start its journey to the other side of the line. And only after the payload is removed, the robot will return. Check the ridiculous (and a bit inappropriate) story I made with this robot in the video.
+              In my freshman year, as I just started learning more about electronic logic gates, I decided to make a line follower out of just logic gates and zero programming. Happy with the results, I wanted to see how much intricrate stuff can be done with logic gates alone and with no microcontroller. The robot here has 1 bit of memory made from 1 JK flip-flop (also made out of logic gates) which stores the state of the robot. If the robot detects a payload, it will start its journey to the other side of the line. And only after the payload is removed, the robot will automatically return back. Check the ridiculous (and a bit inappropriate) story I made with this robot in the video.
               </div></div>
             </td>
           </tr>
@@ -1086,9 +1241,9 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="one">
                 <div class="two" id='spruce_image'>
-                <img src="images/spruce.gif">
+                <img src="images/spruce.gif" style="border-radius:5%">
                 </div>
-                <img src='images/spruce.png' width="160">
+                <img src='images/spruce.png' width="160" style="border-radius:5%">
               </div>
               <script type="text/javascript">
                 function spruce_start() {
@@ -1104,13 +1259,13 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="paper_title">
               <div class="paper_title_center">
-                <papertitle>SpruceBot</papertitle>
+                <papertitle>Rover V3: SpruceBot</papertitle>
               <br>
               [ <a href="https://youtu.be/mjolKfPiag8" target="_blank">Video</a> ]
               </div></div>
                 <p></p>
               <div style="text-align: left"><div class="text_just">
-             Check the rovers below before reading this. Still obsessed with rovers, this was another attempt to make further improvements. This version again got a gripper redesign. In this build, I figured out how to melt and shape empty pen casings to make a stronger gripper as opposed to the popsicle stick technique. The arm was pushed back into the rover- allowing it to lift even heavier loads. Other features I added include an IP camera (using a phone) to stream live video which can also be rotated giving 360 degrees vision during teleoperation. During that time, I also got a fancy camera which I used to film the rover. Check the video where I made a short story using the rover as the hero. Interesting fact: Around that time, I just started to learn about circuits from my A-level physics course. I implemented a circuit in this rover that automatically controls the headlights based on the ambient light and thought it was super cool.
+             Check the rovers below before reading this. Still obsessed with rovers, this was another attempt to make further improvements. This version again got a gripper redesign. In this build, I figured out how to melt and shape empty pen casings to make a stronger gripper as opposed to the popsicle stick method used earlier. The arm was pushed back into the rover- allowing it to lift even heavier loads. Other features I added include an IP camera (using a phone) to stream live video which can also be rotated giving 360 degrees vision during teleoperation. During that time, I also got a fancy camera which I used to film the rover. Check the video where I made a short story using the rover as the hero. Interesting fact: Around that time, I just started to learn about circuits from my A-level physics course. I implemented a circuit in this rover that automatically controls the headlights based on the ambient light and thought it was super cool.
               </div></div>
             </td>
           </tr>
@@ -1125,9 +1280,9 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="one">
                 <div class="two" id='rrl2_image'>
-                <img src="images/rrl2.gif">
+                <img src="images/rrl2.gif" style="border-radius:5%">
                 </div>
-                <img src='images/rrl2.png' width="160">
+                <img src='images/rrl2.png' width="160" style="border-radius:5%">
               </div>
               <script type="text/javascript">
                 function rrl2_start() {
@@ -1143,7 +1298,7 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="paper_title">
               <div class="paper_title_center">
-                <papertitle>RRL2</papertitle>
+                <papertitle>Rover V2: RRL2</papertitle>
               <br>
               [ <a href="https://youtu.be/xStmz4oaPpU" target="_blank">Video</a> &nbsp|&nbsp <a
                       href="https://youtu.be/XumcbrsZXJE" target="_blank">Short Video</a> ]
@@ -1163,9 +1318,9 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="one">
                 <div class="two" id='rrl1_image'>
-                <img src="images/rrl1.gif">
+                <img src="images/rrl1.gif" style="border-radius:5%">
                 </div>
-                <img src='images/rrl1.png' width="160">
+                <img src='images/rrl1.png' width="160" style="border-radius:5%">
               </div>
               <script type="text/javascript">
                 function rrl1_start() {
@@ -1181,26 +1336,23 @@
             <td style="padding:20px;vertical-align:middle">
               <div class="paper_title">
               <div class="paper_title_center">
-              <papertitle>RRL1</papertitle>
+              <papertitle>Rover V1: RRL1</papertitle>
               <br>
               [ <a href="https://youtu.be/QOROwr7lSEc" target="_blank">Video</a> ]
               </div></div>
                 <p></p>
               <div style="text-align: left"><div class="text_just">
-            At the age of 14, I became obsessed with rovers after seeing a documentary on NASA's Mars rovers: Spirit and Opportunity. Following that day, I have spent countless hours in my room trying to learn things by myself with the hopes of building my own rover one day. After countless failed iterations, this was the first working prototype. If you observe closely, this was made mostly out of cardboard, popsicle sticks, and foam board. The electronic parts were taken from RC cars. Fun fact: I was so happy with how it turned out that I named it after my high school sweetheart.
+            At the age of 14, I became obsessed with rovers after seeing a documentary on NASA's Mars rovers: Spirit and Opportunity. Following that day, I have spent countless hours in my room trying to learn things by myself with the hopes of building my own rover one day. After countless failed iterations, this was the first working prototype. If you observe closely, this was made mostly out of cardboard, popsicle sticks, and foam board. The electronic parts were taken from RC cars. Fun fact: I was so happy with how it turned out that I named it after my high school gf.
               </div></div>
             </td>
           </tr>
-
-
-
-
-
+        <br>
         </tbody></table>
 
-
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <p id="Teaching"><br></p>
+        <!--
+TEACHING EXPERIENCE -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-top:30px;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:20px;vertical-align:middle">
               <div class="heading_center">
@@ -1210,11 +1362,11 @@
           </tr>
         </tbody></table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-top:-30px;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:20px;vertical-align:middle">
                 <div class="teaching_exp">
-              <img src="images/ECE_closed_full_colour-high-res_0.jpg"></div></td>
+              <img src="images/ECE_closed_full_colour-high-res_0.jpg" style="border-radius:5%"></div></td>
 
             <td style="padding:20px;vertical-align:middle">
               <div class="paper_title">
@@ -1227,10 +1379,10 @@
               <br>
               <a href="https://ece.ubc.ca/courses/eece-570/" target="_blank">EECE 570: Fundamentals of Visual Computing, Spring
                 2020</a>
-              <br><br>
+              <br>
               <a href="https://ece.ubc.ca/courses/elec-421/" target="_blank">ELEC 421: Digital Signal and Image Processing, Fall
                 2019</a>
-              <br><br>
+              <br>
               <a href="https://ece.ubc.ca/courses/elec-491/" target="_blank">ELEC 491: Capstone Design Project, Fall-Spring
                 2020-2021</a>
               <br>
@@ -1242,7 +1394,7 @@
           <tr>
             <td style="padding:20px;vertical-align:middle">
               <div class="teaching_exp">
-              <img src="images/SBME_UBC_Horizontal_Primary_Colour_RGB.png">
+              <img src="images/SBME_UBC_Horizontal_Primary_Colour_RGB.png" style="border-radius:5%">
             </div>
             </td>
             <td style="padding:20px;vertical-align:middle">
@@ -1260,16 +1412,85 @@
 
 
 
+
+
+<!-- EDUCATION
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-top:30px;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:20px;vertical-align:middle">
+              <div class="heading_center">
+              <heading><u>Education</u></heading>
+              </div>
+            </td>
+          </tr>
+        </tbody></table>
+
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-top:-20px;margin-right:auto;margin-left:auto;"><tbody>
+
+        <tr onmouseout="rrl1_stop()" onmouseover="rrl1_start()">
+            <td style="padding:20px;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='rrl1_image'>
+                <img src="images/rrl1.gif" style="border-radius:5%">
+                </div>
+                <img src='images/rrl1.png' width="160" style="border-radius:5%">
+              </div>
+              <script type="text/javascript">
+                function rrl1_start() {
+                  document.getElementById('rrl1_image').style.opacity = "1";
+                }
+
+                function rrl1_stop() {
+                  document.getElementById('rrl1_image').style.opacity = "0";
+                }
+                rrl1_stop()
+              </script>
+            </td>
+            <td style="padding:20px;vertical-align:middle">
+              <div class="paper_title">
+              <div class="paper_title_center">
+              <papertitle>PhD in Biomedical Engineering</papertitle>
+
+              <div style="text-align: left"><div class="text_just">
+            At the age of 14, I became obsessed with rovers after seeing a documentary on NASA's Mars rovers: Spirit and Opportunity. Following that day, I have spent countless hours in my room trying to learn things by myself with the hopes of building my own rover one day. After countless failed iterations, this was the first working prototype. If you observe closely, this was made mostly out of cardboard, popsicle sticks, and foam board. The electronic parts were taken from RC cars. Fun fact: I was so happy with how it turned out that I named it after my high school sweetheart.
+              </div></div>
+            </td>
+          </tr>
+        <br>
+        </tbody></table> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:0px;vertical-align:middle">
               <p style="text-align:center;font-size:small;">
                   <a href="https://clustrmaps.com/site/1bjf7" target="_blank" title="Visit tracker"><img
-              class="footer-img" src="//www.clustrmaps.com/map_v2.png?d=5D_qUy__xzHcjumy0kCyHWlbB6laBEt94KoCb2MaAtI&cl=ffffff"></a>
-                  <br><br>
-                Based on <a href="https://jonbarron.info/" target="_blank" style="font-size: small">Jon
-                Barron's</a> site.
-                <br> Last updated December 2021.
+              class="footer-img" src="//www.clustrmaps.com/map_v2.png?d=5D_qUy__xzHcjumy0kCyHWlbB6laBEt94KoCb2MaAtI&cl=ffffff" style="border-radius:5%"></a>
+                  <br>
+                  Last updated Nov 2023.
+                  <br>
+                  Modified from <a href="https://jonbarron.info/" target="_blank" style="font-size: small">Jon
+                  Barron's</a> site.
+
               </p>
             </td>
           </tr>

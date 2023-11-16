@@ -64,7 +64,7 @@ text-align: justify}
 
 
 .pic_region{
-  width: 40%;
+  width: 30%;
 }
 /* latin-ext */
 @font-face {
@@ -132,15 +132,12 @@ text-align: justify}
 }
 
 
-
-
 body,
 td,
 th,
-tr,
-a {
+tr{
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   color: #4f4f4e;
 }
 a {
@@ -148,43 +145,49 @@ a {
   text-decoration: none;
 }
 
+
 a:focus,
 a:hover {
   color: #f09228;
   text-decoration: none;
+  font-size: 16px;
 }
+
+
 
 p{
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   color: #4f4f4e;
 }
 
 
+
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 heading {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 900;
-  color:#7284b7;
+  color:rgba(13, 14, 90, 0.705);
 }
 
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  color: #7183b7;
+  color:rgba(13, 14, 90, 0.705);
 }
+
 
 name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 38px;
+  font-size: 45px;
 font-weight: 900;
-color: #7284b7;
+color: rgba(13, 14, 90, 0.705);
 }
 
 .paper_title {
@@ -192,9 +195,10 @@ color: #7284b7;
 }
 
 .one {
-  width: 160px;
   height: 160px;
+  width: 160px;
   position: relative;
+
 }
 
 .teaching_exp{
@@ -208,9 +212,7 @@ color: #7284b7;
   width: 160px;
   height: 160px;
   position: absolute;
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
+  transform: scale(1.10);
 }
 
 .fade {
@@ -221,4 +223,88 @@ color: #7284b7;
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+/* img:hover{
+  transform: scale(1.05)
+} */
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+/* FOR THE NAV BAR ON TOP */
+
+/* Create a sticky/fixed navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 30px 10px; /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  position: fixed; /* Sticky/fixed navbar */
+  width: 100%;
+  top: 0; /* At the top */
+  left:0;
+  z-index: 99;
+  border-radius: 4px;
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  color: rgba(20, 22, 151, 0.705);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 10px;
+  border-radius: 4px;
+}
+
+/* Style the logo */
+#navbar #logo {
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+/* Links on mouse-over */
+#navbar a:hover {
+  color: #1d1d1d;
+
+}
+
+/* Style the active/current link */
+#navbar a.active {
+  background-color: rgba(20, 22, 151, 0.705);
+  color: white;
+}
+
+/* Display some links to the right */
+#navbar-right {
+  float: right;
+  padding-right: 20px;
+}
+
+/* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+    top: -10px;
+  }
+
+  #navbar #logo {
+    color:#f1f1f1
+  }
+
+  #navbar a {
+    float: none;
+    text-align: center;
+  }
+  #navbar-right {
+    float: none;
+  }
 }
