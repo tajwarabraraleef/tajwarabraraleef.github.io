@@ -207,10 +207,15 @@ html {
 #navbar {
   overflow: hidden;
   background-color:rgb(50, 50, 83);
-  padding: 20px 10px; /* Large padding which will shrink on scroll (using JS) */
+  padding: 18px 0px; /* Large padding which will shrink on scroll (using JS) */
   transition: 0.5s; /* Adds a transition effect when the padding is decreased */
-  position: fixed; /* Sticky/fixed navbar */
-  width: 100%;
+  width: 92%;
+  max-width: 1000px;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom: -100px;
+  margin-top: -8px;
+  position: sticky; /* Sticky/fixed navbar */
   top: 0; /* At the top */
   left:0;
   z-index: 99;
@@ -260,11 +265,17 @@ html {
 /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
 @media screen and (max-width: 580px) {
   #navbar {
-    padding: 20px 0px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
-    top: -5px;
-    font-size:3px;
+    padding: 25px 0px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+    top: 0px;
+    width: 100%;
+    position: fixed; /* Sticky/fixed navbar */
+
+
   }
 
+  .main_table {
+    margin-top: -40px;
+  }
   /* #navbar #logo {
     color:rgb(50, 50, 83);
     float: none;
