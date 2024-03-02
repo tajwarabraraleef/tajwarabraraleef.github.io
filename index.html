@@ -12,30 +12,92 @@
 
 
 <script>
-// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+// The nav bar changes based on the scroll location
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("navbar").style.padding = "10px 10px";
-    document.getElementById("logo").style.fontSize = "25px";
-  } else {
-    document.getElementById("navbar").style.padding = "20px 10px";
-    document.getElementById("logo").style.fontSize = "30px";
+  var btnContainer = document.getElementById("navbar");
+  var btns = btnContainer.getElementsByClassName("navbar");
+
+  var research_location = document.getElementById('Research').getBoundingClientRect().top
+  var proj_location = document.getElementById('Projects').getBoundingClientRect().top + window.scrollY - window.outerHeight/2
+  var teaching_location = document.getElementById('Teaching').getBoundingClientRect().top + window.scrollY - window.outerHeight/2
+
+
+  if (document.body.scrollTop > research_location || document.documentElement.scrollTop > research_location) {
+    document.getElementById("navbar").style.padding = "18px 0px";
+    //document.getElementById("logo").style.fontSize = "25px";
+
+    btns[0].className = "navbar";
+    btns[1].className = "navbar active";
+    btns[2].className = "navbar";
+    btns[3].className = "navbar";
+
+    if (document.body.scrollTop > proj_location || document.documentElement.scrollTop > proj_location) {
+      btns[0].className = "navbar";
+      btns[1].className = "navbar";
+      btns[2].className = "navbar active";
+      btns[3].className = "navbar";
+    }
+    if (document.body.scrollTop > teaching_location || document.documentElement.scrollTop > teaching_location) {
+      btns[0].className = "navbar";
+      btns[1].className = "navbar";
+      btns[2].className = "navbar";
+      btns[3].className = "navbar active";
+    }
+
   }
-}
+
+  else {
+    document.getElementById("navbar").style.padding = "22px 0px";
+    // document.getElementById("logo").style.fontSize = "30px";
+    btns[0].className = "navbar active";
+    btns[1].className = "navbar";
+    btns[2].className = "navbar";
+    btns[3].className = "navbar";
+
+  }
+  }
+
 </script>
 
+
+<script src="https://kit.fontawesome.com/4de7d58e0c.js" crossorigin="anonymous"></script>
+
 <!--Top nav bar-->
-<div id="navbar">
-  <a id="logo">Tajwar Abrar Aleef</a>
+<!-- <div id="navbar">
   <div id="navbar-right">
-    <a href="#Home">Home</a>
-    <a href="#Research">Research</a>
-    <a href="#Projects">Projects</a>
-    <a href="#Teaching">Teaching</a>
+    <a class="navbar active" href="#Home"><i class="fa-solid fa-house"></i>&nbsp;&nbsp;Home</a>
+    <a class="navbar" href="#Research"><i class="fa-solid fa-microscope"></i>&nbsp;&nbsp;Research</a>
+    <a class="navbar" href="#Projects"><i class="fa-solid fa-robot"></i>&nbsp;&nbsp;Projects</a>
+    <a class="navbar" href="#Teaching"><i class="fa-solid fa-person-chalkboard"></i>&nbsp;&nbsp;Teaching</a>
+  </div>
+</div> -->
+
+
+<div id="navbar">
+  <div id="navbar-right">
+    <a class="navbar active" href="#Home">Home</a>
+    <a class="navbar" href="#Research">Research</a>
+    <a class="navbar" href="#Projects">Projects</a>
+    <a class="navbar" href="#Teaching">Teaching</a>
   </div>
 </div>
+
+
+
+<!-- <script>
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("navbar");
+var btns = btnContainer.getElementsByClassName("navbar");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script> -->
 
 <!-- Anchor point for Home -->
 <p id="Home"><br><br></p>
@@ -44,19 +106,38 @@ function scrollFunction() {
 
 
 <table
-          style="width:100%;max-width:900px;border:0px;border-spacing:30px;border-collapse:separate;margin-top:20px;margin-right:auto;margin-left:auto;background-color: rgb(255, 255, 255);"><tbody>
+          style="width:92%;max-width:1000px;border:0px;border-spacing:30px;border-collapse:separate;margin-top:-30px;margin-right:auto;margin-left:auto;background-color: rgb(255, 255, 255);"><tbody>
 
             <tr style="padding:0px">
       <td style="padding:0px">
               <p style="text-align:center">
                 <name>Tajwar Abrar Aleef</name>
               </p>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-top:-30px;max-width:auto;margin-left:auto;"><tbody>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-top:-10px;max-width:auto;margin-left:auto;"><tbody>
           <tr style="padding:0px">
+
+
+            <td style="padding-top:20px;margin-bottom:-10px;" class="pic_region_top">
+              <a><img alt="profile photo" src="images/tajwar_2.jpg"
+                                               style= "display: block;margin-left: auto;margin-right: auto;width: 80%;" class="pic_separately"></a>
+
+            <br>
+            </div></p>
+              <p style="text-align:center">
+                <a href="mailto:tajwaraleef@ece.ubc.ca">Email</a> &nbsp|&nbsp
+                <!-- <a href="data/Tajwar_Abrar_Aleef_CV.pdf" target="_blank">CV</a> &nbsp|&nbsp -->
+                <a href="https://scholar.google.com/citations?user=MhZ_pv8AAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a>
+                &nbsp|&nbsp
+                <a href="https://github.com/tajwarabraraleef/" target="_blank">GitHub</a>                  <!-- <a href="https://www.researchgate.net/profile/Tajwar-Aleef" target="_blank">Research Gate</a> &nbsp|&nbsp -->
+                <a href="https://www.linkedin.com/in/tajwar-abrar-aleef/" target="_blank">LinkedIn</a> &nbsp|&nbsp
+                <!-- <a href="https://twitter.com/tajwaraleef" target="_blank">Twitter</a> &nbsp|&nbsp -->
+                <a href="https://www.youtube.com/user/rrobothead/videos" target="_blank">YouTube</a>
+              </p>
+
+            </td>
+
             <td style="padding:20px;vertical-align:middle">
               <div class="top">
-
-
                 </div>
                 <p style="text-align: justify"><div class="top_text">
                 Hello World!
@@ -75,11 +156,10 @@ function scrollFunction() {
                 <strong >Key Expertise: </strong><em>Medical Imaging, Computer Vision, Machine Learning, Deep Learning, Ultrasound Imaging, Ultrasound Elastography, and much more</em>
 
             </td>
-            <td style="padding:10px;" class="pic_region">
 
+            <td style="padding:-10px;" class="pic_region">
               <a><img alt="profile photo" src="images/tajwar_2.jpg"
-                                               style= "width:100%" class="pic_separately"></a>
-
+                                               style= "width:100%"></a>
             <br>
             </div></p>
               <p style="text-align:center">
@@ -99,16 +179,19 @@ function scrollFunction() {
 
         </tbody></table>
 
-<!--Research-->
+        <!--Research-->
 <!--        -->
         <p id="Research"><br><br><br><br><br></p>
+
         <table
-                style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-top:-60px;margin-right:auto;margin-left:auto;"><tbody>
+                style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-top:-80px;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
-            <td style="padding:20px;vertical-align:middle">
+
+              <td style="padding:20px;vertical-align:middle">
               <div class="heading_center">
               <heading>Selected Research Work</heading>
               </div>
+              <hr>
 
               <p style="text-align: left">
                 <div class="text_just">
@@ -1031,12 +1114,13 @@ function scrollFunction() {
 
         <p id="Projects"><br><br></p>
         <table
-                style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-top:0px;margin-right:auto;margin-left:auto;"><tbody>
+                style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-top:-20px;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:20px;vertical-align:middle">
               <div class="heading_center">
               <heading>Past Engineering Projects</heading>
-              </div>
+              <hr>
+            </div>
               <p style="text-align: left"><div class="text_just">
               I always enjoyed hands-on work. Even long before I got any formal education or engineering training,
               I was often found meddling around with any devices I could get my hands on.
@@ -1362,8 +1446,9 @@ TEACHING EXPERIENCE -->
           </tr>
         </tbody></table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-top:-30px;margin-right:auto;margin-left:auto;"><tbody>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-top:-10px;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
+            <hr>
             <td style="padding:20px;vertical-align:middle">
                 <div class="teaching_exp">
               <img src="images/ECE_closed_full_colour-high-res_0.png" style="border-radius:5%"></div></td>
@@ -1479,16 +1564,16 @@ TEACHING EXPERIENCE -->
 
 
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table style="width:100%;border:0px;border-spacing:0px;margin-top:200px;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:0px;vertical-align:middle">
               <p style="text-align:center;font-size:small;">
                   <a href="https://clustrmaps.com/site/1bjf7" target="_blank" title="Visit tracker"><img
               class="footer-img" src="//www.clustrmaps.com/map_v2.png?d=5D_qUy__xzHcjumy0kCyHWlbB6laBEt94KoCb2MaAtI&cl=ffffff" style="border-radius:5%"></a>
                   <br>
-                  Last updated Nov 2023.
+                  Last updated March 2024.
                   <br>
-                  Modified from <a href="https://jonbarron.info/" target="_blank" style="font-size: small">Jon
+                  Based on <a href="https://jonbarron.info/" target="_blank" style="font-size: small">Jon
                   Barron's</a> site.
 
               </p>
