@@ -317,10 +317,10 @@ html {
   }
 
   heading{
-    font-size: 18px;
+    font-size: 20px;
   }
 
-  papertitle{font-size:13px}
+  papertitle{font-size:14px}
 
   a, strong,
   a:hover,
@@ -328,9 +328,9 @@ html {
   td,
   th,
   tr{
-    font-size: 10px;
+    font-size: 12px;
   }
-  .top_text{font-size: 10px;
+  .top_text{font-size: 12px;
   text-align: justify}
 
 
