@@ -158,6 +158,10 @@ papertitle {
 
 }
 
+i:hover {
+  transform: scale(1.2);
+}
+
 .one {
   height: 160px;
   width: 160px;
@@ -241,7 +245,7 @@ html {
 
  /* Links on mouse-over */
 #navbar a:hover {
-  color: #96949f;
+  color: #ffffff;
   font-size: 22px;
   /* background-color: aqua; */
 
