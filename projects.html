@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Tajwar Abrar Aleef</title>
+  <meta name="description" content="Engineering projects by Tajwar Abrar Aleef, from autonomous robots to embedded prototypes.">
+  <script>document.documentElement.classList.add("js-page-pending");</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="images/icon.png">
+</head>
+<body data-page="projects">
+  <header class="site-header">
+    <div class="shell nav-shell">
+      <a class="brand" href="index.html">Tajwar Abrar Aleef</a>
+      <button id="nav-toggle" class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav id="site-nav" class="site-nav" data-open="false" aria-label="Main navigation">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="experience.html" data-nav="experience">Experience</a>
+        <a href="education.html" data-nav="education">Education</a>
+        <a href="research.html" data-nav="research">Research</a>
+        <a href="projects.html" data-nav="projects">Projects</a>
+        <a href="hobbies.html" data-nav="hobbies">Hobbies</a>
+        <a href="gallery.html" data-nav="gallery">Gallery</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content shell">
+    <section class="section-block">
+      <div class="section-heading" data-reveal>
+        <p class="kicker">Past Engineering Builds</p>
+        <h2>Mostly for fun, nothing serious</h2>
+        <p>I have been building things for as long as I can remember. Some projects I documented, but a lot of them were just completed and disassembled to make something new. Even before formally studying engineering, I was already doing it—spending entire days in my room building stuff and forgetting to eat. Here are a few fun projects from my early days to undergrad. From rovers to robotic arms made from whatever I could find, these experiences really shaped how I think and solve problems.</p>
+      </div>
+      <div id="projects-featured" aria-live="polite">
+        <div class="empty-state">Loading projects...</div>
+      </div>
+    </section>
+  </main>
+
+  <div id="project-modal" class="research-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="project-modal-title">
+    <div class="research-modal__panel">
+      <div class="research-modal__topbar">
+        <button id="project-modal-close" class="research-modal__close" type="button" aria-label="Close details">&times;</button>
+      </div>
+      <div class="research-modal__layout">
+        <div class="research-modal__media">
+          <img id="project-modal-image" src="images/white_background.png" alt="Project preview">
+        </div>
+        <div class="research-modal__content">
+          <p id="project-modal-meta" class="research-modal__meta"></p>
+          <h3 id="project-modal-title"></h3>
+          <h4 class="research-modal__section-title">Description</h4>
+          <p id="project-modal-description" class="research-modal__summary"></p>
+          <div id="project-modal-tags" class="tag-row research-modal__tags"></div>
+          <div id="project-modal-links" class="link-row research-modal__links"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="shell footer-shell">
+      <span>&copy; <span id="copyright-year"></span> Tajwar Abrar Aleef.</span>
+      <span id="footer-note">Updated February 2026.</span>
+    </div>
+  </footer>
+
+  <script src="js/site-data.js"></script>
+  <script src="js/site-render.js"></script>
+  <script src="js/site-config.js"></script>
+  <script src="js/site-main.js"></script>
+  <script src="js/page-projects.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+

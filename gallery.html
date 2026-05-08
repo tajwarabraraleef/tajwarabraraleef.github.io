@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Tajwar Abrar Aleef</title>
+  <meta name="description" content="Curated visual gallery from research, engineering work, and personal snapshots.">
+  <script>document.documentElement.classList.add("js-page-pending");</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="images/icon.png">
+</head>
+<body data-page="gallery">
+  <header class="site-header">
+    <div class="shell nav-shell">
+      <a class="brand" href="index.html">Tajwar Abrar Aleef</a>
+      <button id="nav-toggle" class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav id="site-nav" class="site-nav" data-open="false" aria-label="Main navigation">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="experience.html" data-nav="experience">Experience</a>
+        <a href="education.html" data-nav="education">Education</a>
+        <a href="research.html" data-nav="research">Research</a>
+        <a href="projects.html" data-nav="projects">Projects</a>
+        <a href="hobbies.html" data-nav="hobbies">Hobbies</a>
+        <a href="gallery.html" data-nav="gallery">Gallery</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content shell">
+    <section class="section-block">
+      <div class="section-heading" data-reveal>
+        <p class="kicker">Visual Archive</p>
+        <h2>Research, Travel, and Personal Moments</h2>
+        <p>A random curated media wall across projects, publications, and life outside work.</p>
+      </div>
+      <div id="gallery-filters" class="gallery-filters" aria-label="Gallery categories">
+        <div class="empty-state">Loading filters...</div>
+      </div>
+      <div id="gallery-container" aria-live="polite">
+        <div class="empty-state">Loading gallery...</div>
+      </div>
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Media preview">
+    <button class="lightbox-close" type="button" aria-label="Close preview">&times;</button>
+    <button class="lightbox-nav lightbox-nav--prev" type="button" aria-label="Previous media">
+      <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+    </button>
+    <button class="lightbox-nav lightbox-nav--next" type="button" aria-label="Next media">
+      <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+    </button>
+    <div class="lightbox-content">
+      <div class="lightbox-media-wrap">
+        <img src="" alt="">
+        <video controls preload="metadata" playsinline hidden></video>
+      </div>
+      <p class="lightbox-caption" hidden></p>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="shell footer-shell">
+      <span>&copy; <span id="copyright-year"></span> Tajwar Abrar Aleef.</span>
+      <span id="footer-note">Updated February 2026.</span>
+    </div>
+  </footer>
+
+  <script src="js/site-data.js"></script>
+  <script src="js/site-render.js"></script>
+  <script src="js/site-config.js"></script>
+  <script src="js/site-main.js"></script>
+  <script src="js/page-gallery.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+

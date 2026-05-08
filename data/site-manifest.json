@@ -1,0 +1,12 @@
+{
+  "sections": [],
+  "homeDisplay": {
+    "impactLimit": 6,
+    "capabilitiesLimit": 6,
+    "trustLimit": 3,
+    "showcaseResearchLimit": 10,
+    "showcaseProjectsLimit": 10,
+    "careerLimit": 3,
+    "expertiseLimit": 6
+  }
+}

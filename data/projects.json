@@ -1,0 +1,296 @@
+[
+    {
+        "id":  "arm_image",
+        "title":  "Robotic Arm",
+        "summary":  "Made this totally from scratch and with no access to any 3D printer or any proper tools.",
+        "description":  "Made this totally from scratch and with no access to any 3D printer or any proper tools. The parts were scorched and carved out of plastic sheets with just a box cutter. Rubber from a balloon was stapled onto the gripper for extra grip (my Mom\u0027s idea). The 6 servos at each articulation point are controlled with an Arduino Mega board. The program I wrote for this uses inverse kinematics to control the position of the end effector. In the hyperlinked video, the arm is programmed to move to position A, grab the object, take it to position B, rotate it, and drop it.",
+        "primaryImage":  "images/Arm_med.jpg",
+        "secondaryImage":  "images/Arm.gif",
+        "year":  2016,
+        "tags":  [
+                     "Robotics",
+                     "Control Systems",
+                     "Hardware"
+                 ],
+        "featured":  true,
+        "links":  [
+                      {
+                          "label":  "Video",
+                          "url":  "https://youtu.be/zGz-Ilaczoo",
+                          "kind":  "media"
+                      }
+                  ],
+        "category":  "Robotics",
+        "homeFeatured":  true
+    },
+    {
+        "id":  "firebot_image",
+        "title":  "Firefighting Bot Concept",
+        "summary":  "Concept of autonomous fire detection and extinguishing.",
+        "description":  "Concept of autonomous fire detection and extinguishing. The bot has IR sensors mounted in front that search for fire in the surrounding environment. If a fire is detected, it goes towards it and turns on the extinguisher (for simplicity a fan is used). Once the fire is out, the robot backs up and starts looking around for more possible fires.",
+        "primaryImage":  "images/firebot.jpg",
+        "secondaryImage":  "images/firebot.gif",
+        "year":  2015,
+        "tags":  [
+                     "Robotics",
+                     "Autonomous Systems",
+                     "Embedded"
+                 ],
+        "featured":  true,
+        "links":  [
+                      {
+                          "label":  "Video",
+                          "url":  "https://youtu.be/iWBHc8A4hWQ",
+                          "kind":  "media"
+                      }
+                  ],
+        "category":  "Robotics",
+        "homeFeatured":  true
+    },
+    {
+        "id":  "surv_image",
+        "title":  "Surveillance Robot",
+        "summary":  "Here, I made a custom android controller allowing teleoperation of the robot over Bluetooth with an Android phone.",
+        "description":  "Here, I made a custom android controller allowing teleoperation of the robot over Bluetooth with an Android phone. Another Android phone mounted on the robot acts as an IP camera and sends a live video feed to the operator. The robot can also automatically avoid obstacles using its onboard sonar sensor.",
+        "primaryImage":  "images/surv.png",
+        "secondaryImage":  "images/surv.gif",
+        "year":  2015,
+        "tags":  [
+                     "Robotics",
+                     "Mobile Systems",
+                     "Computer Vision"
+                 ],
+        "featured":  true,
+        "links":  [
+                      {
+                          "label":  "Video",
+                          "url":  "https://youtu.be/yoHOOmsJTkc",
+                          "kind":  "media"
+                      }
+                  ],
+        "category":  "Robotics",
+        "homeFeatured":  true
+    },
+    {
+        "id":  "sonar_image",
+        "title":  "Sonar Glasses for the visually impaired",
+        "summary":  "This is a simple concept of using sonar sensors to assist visually impaired people.",
+        "description":  "This is a simple concept of using sonar sensors to assist visually impaired people. These sensors were mounted onto glasses that detect if any obstacle is present in the periphery. Based on the position of the object, two vibration motors mounted on each side of the glasses will vibrate with different amplitude- giving haptic feedback to the user and alerting them of nearby objects.",
+        "primaryImage":  "images/sonar1.jpg",
+        "secondaryImage":  "images/sonar2.gif",
+        "year":  2012,
+        "tags":  [
+                     "Assistive Tech",
+                     "Embedded",
+                     "Sensors"
+                 ],
+        "featured":  true,
+        "links":  [
+                      {
+                          "label":  "Video",
+                          "url":  "https://youtu.be/JOoEmXBZgmg",
+                          "kind":  "media"
+                      }
+                  ],
+        "category":  "Assistive Tech",
+        "homeFeatured":  true
+    },
+    {
+        "id":  "manbot_image",
+        "title":  "Smart Line Follower",
+        "summary":  "In my freshman year, as I just started learning more about electronic logic gates, I decided to make a line follower out of just logic gates",
+        "description":  "In my freshman year, as I just started learning more about electronic logic gates, I decided to make a line follower out of just logic gates and zero programming. Happy with the results, I wanted to see how much intricate stuff can be done with logic gates alone and with no microcontroller. The robot here has 1 bit of memory made from 1 JK flip-flop (also made out of logic gates) which stores the state of the robot. If the robot detects a payload, it will start its journey to the other side of the line. And only after the payload is removed, the robot will automatically return back. Check the ridiculous (and a bit inappropriate) story I made with this robot in the video.",
+        "primaryImage":  "images/manbot.png",
+        "secondaryImage":  "images/manbot.gif",
+        "year":  2013,
+        "tags":  [
+                     "Logic Design",
+                     "Embedded",
+                     "Robotics"
+                 ],
+        "featured":  false,
+        "links":  [
+                      {
+                          "label":  "Video",
+                          "url":  "https://youtu.be/fsvVbdsJ3fM",
+                          "kind":  "media"
+                      }
+                  ],
+        "category":  "Logic Design"
+    },
+    {
+        "id":  "spruce_image",
+        "title":  "Rover V3: SpruceBot",
+        "summary":  "Still obsessed with rovers, this was another attempt to make further improvements.",
+        "description":  "Check the rovers below before reading this. Still obsessed with rovers, this was another attempt to make further improvements. This version again got a gripper redesign. In this build, I figured out how to melt and shape empty marker casings to make a stronger gripper as opposed to the popsicle stick method used earlier. The arm was pushed back into the rover- allowing it to lift even heavier loads. Other features I added include an IP camera (using a phone) to stream live video which can also be rotated giving 360 degrees vision during teleoperation. During that time, I also got a much better camera which I used to film the rover. Check the video where I made a short story using the rover as the hero. Interesting fact: Around that time, I just started to learn about circuits from my A-level physics course. I implemented a circuit in this rover that automatically controls the headlights based on the ambient light and thought it was super cool.",
+        "primaryImage":  "images/spruce.png",
+        "secondaryImage":  "images/spruce.gif",
+        "year":  2012,
+        "tags":  [
+                     "Rover",
+                     "Mechanical Design",
+                     "Embedded"
+                 ],
+        "featured":  false,
+        "links":  [
+                      {
+                          "label":  "Video",
+                          "url":  "https://youtu.be/mjolKfPiag8",
+                          "kind":  "media"
+                      }
+                  ],
+        "category":  "Rover"
+    },
+    {
+        "id":  "rrl2_image",
+        "title":  "Rover V2",
+        "summary":  "This was a massive update from the previous version.",
+        "description":  "This is the updated version of RRL1. After finding success with the electronic side of things, in this build, I focused on improving the mechanical design. Again with no proper tools and materials available, I used things I found around the house. The gripper design was improved substantially and now it could pick up many different items. In the 11 min long video, I show the things I could do with this version (even tried to pick up a pen and draw with it). Interesting fact: I didn\u0027t have any servos back then so I made a string pulley system to increase the load capacity of the DC motor that raises the arm.",
+        "primaryImage":  "images/rrl2.png",
+        "secondaryImage":  "images/rrl2.gif",
+        "year":  2011,
+        "tags":  [
+                     "Rover",
+                     "Prototyping",
+                     "Mechatronics"
+                 ],
+        "featured":  false,
+        "links":  [
+                      {
+                          "label":  "Video",
+                          "url":  "https://youtu.be/xStmz4oaPpU",
+                          "kind":  "media"
+                      },
+                      {
+                          "label":  "Short Video",
+                          "url":  "https://youtu.be/XumcbrsZXJE",
+                          "kind":  "media"
+                      }
+                  ],
+        "category":  "Rover"
+    },
+    {
+        "id":  "rrl1_image",
+        "title":  "Rover V1",
+        "summary":  "At the age of 14, I became obsessed with rovers after seeing a documentary on NASA\u0027s Mars rovers: Spirit and Opportunity.",
+        "description":  "At the age of 14, I became obsessed with rovers after seeing a documentary on NASA\u0027s Mars rovers: Spirit and Opportunity. Following that day, I remember spending countless hours in my room trying to learn things by myself with the hopes of building my own rover one day. After countless failed iterations, this was the first working prototype. If you observe closely, this was made mostly out of cardboard, popsicle sticks, and foam board. The electronic parts were taken from RC cars. The arm had a single degree of freedom and was controlled by a DC motor. The rover was teleoperated using an RC remote control.",
+        "primaryImage":  "images/rrl1.png",
+        "secondaryImage":  "images/rrl1.gif",
+        "year":  2010,
+        "tags":  [
+                     "Rover",
+                     "DIY Engineering"
+                 ],
+        "featured":  false,
+        "links":  [
+                      {
+                          "label":  "Video",
+                          "url":  "https://youtu.be/QOROwr7lSEc",
+                          "kind":  "media"
+                      }
+                  ],
+        "category":  "Rover"
+    },
+        {
+            "id": "thyroid_image",
+            "title": "Thyroid Nodule Segmentation",
+            "summary": "In this work, several state-of-the-art image segmentation techniques were explored for optimizing Thyroid Nodule segmentation from Ultrasound images.",
+            "description": "In this work, several state-of-the-art image segmentation techniques were explored for optimizing Thyroid Nodule segmentation from Ultrasound images. This included supervised learning, transfer learning, and generative adversarial learning.",
+            "primaryImage": "images/thyroid1.png",
+            "secondaryImage": "images/thyroid2.png",
+            "year": "",
+            "venue": "MICCAI TN-SCUI Challenge , 2020",
+            "tags": [
+                "Ultrasound",
+                "Segmentation",
+                "Challenge"
+            ],
+            "featured": false,
+            "category": "Deep Learning",
+            "links": []
+        },
+        {
+            "id": "heart_image",
+            "title": "Heart flow analysis in ECG-gated cardiac Ultrasound",
+            "summary": "Automatic spatio-temporal analysis of cardiac flow was performed using Lucas Kanade and Farneback optical flow techniques.",
+            "description": "Automatic spatio-temporal analysis of cardiac flow was performed using Lucas Kanade and Farneback optical flow techniques. This method tracks the ventricle wall and displays sparse and dense patterns of the vector field of the blood flow. Local and global maximum velocities of the flow are also calculated and displayed for each frame. If any vorticity is detected, it is displayed using colormaps.",
+            "primaryImage": "images/heart1.jpg",
+            "secondaryImage": "images/heart.gif",
+            "year": "",
+            "venue": "University of Cassino , Italy, 2017",
+            "tags": [
+                "Ultrasound",
+                "Optical Flow",
+                "Cardiac Imaging"
+            ],
+            "category": "Optical Flow",
+            "featured": false,
+            "links": []
+        },
+        {
+            "id": "retina_image",
+            "title": "Macular Lesion classification and Retinal vessel segmentation",
+            "summary": "In this work, first, a classification problem was tackled for classifying macular patches into three classes.",
+            "description": "In this work, first, a classification problem was tackled for classifying macular patches into three classes. Several deep learning approaches were studied including pre-trained models such as the AlexNet, VGG, GoogleNet, and resNet50. For Retinal vessel segmentation, a patch-based segmentation approach was used.",
+            "primaryImage": "images/retina1.png",
+            "secondaryImage": "images/retina2.png",
+            "year": "",
+            "venue": "University of Girona , Spain, 2017",
+            "tags": [
+                "Ophthalmology",
+                "Segmentation",
+                "Classification"
+            ],
+            "category": "Deep Learning",
+            "featured": false,
+            "links": []
+        },
+        {
+            "id": "skin_cancer_image",
+            "title": "Skin Cancer Diagnosis Tool",
+            "summary": "This UI lets users register an account along with their Doctor\u0027s information.",
+            "description": "This UI lets users register an account along with their Doctor\u0027s information. The user can then either take new images or load images from the disk and the toolkit will run the diagnosis in the backend (based on pretrained AlexNet) and send the results directly to the doctor. The doctor makes the final diagnosis and consults the user.",
+            "primaryImage": "images/skin_cancer1.png",
+            "secondaryImage": "images/skin_cancer2.png",
+            "year": "",
+            "venue": "University of Girona , Spain, 2017",
+            "tags": [
+                "Dermatology AI",
+                "Clinical Workflow",
+                "Classification"
+            ],
+            "featured": false,
+            "category": "MATLAB GUI",
+            "links": [
+                {
+                    "label": "Code",
+                    "url": "https://github.com/tajwarabraraleef/Skin-Cancer-Diagnosis-Tool",
+                    "kind": "code"
+                }
+            ]
+        },
+        {
+            "id": "scan_image",
+            "title": "Complete End-To-End Low Cost Solution To a 3D Scanning System with Integrated Turntable",
+            "summary": "In this project, a full 3D scanning system was designed along with a low-cost turntable.",
+            "description": "In this project, a full 3D scanning system was designed along with a low-cost turntable. The software included a GUI and was implemented with C++ and Point cloud Library (PCL) that uses a Kinect sensor as the sensor. The point clouds are then passed through a filter followed by registration and reconstruction to generate the 3D data.",
+            "primaryImage": "images/3dscan.jpg",
+            "secondaryImage": "images/3dscan.gif",
+            "year": "",
+            "venue": "University of Burgundy , France, 2016",
+            "tags": [
+                "3D Reconstruction",
+                "Computer Vision",
+                "Robotics"
+            ],
+            "featured": false,
+            "category": "3D Scanning",
+            "links": [
+                {
+                    "label": "arXiv",
+                    "url": "https://arxiv.org/abs/1709.02247",
+                    "kind": "resource"
+                }
+            ]
+        }
+]

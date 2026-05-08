@@ -1,0 +1,195 @@
+﻿[
+    {
+      "type": "video",
+      "src": "images/heart.mp4",
+      "title": "US scan of my heart",
+      "caption": "It still beats! Scanned using Philips EPIQ Ultrasound.",
+      "category": "Research",
+      "layout": "hero"
+    },
+    {
+      "type": "image",
+      "src": "images/pisa.jpg",
+      "title": "Leaning Tower of Pisa, Italy",
+      "caption": "Doing what all other tourists were doing.",
+      "category": "Travel",
+      "layout": "tall"
+    },
+    {
+      "type": "image",
+      "src": "images/moraine.jpg",
+      "title": "Moraine Lake, Alberta",
+      "caption": "Back in 2021.",
+      "category": "Travel",
+      "layout": "medium"
+    },
+    {
+      "type": "image",
+      "src": "images/indie_fest.jpg",
+      "title": "Playing in Indie Fest",
+      "caption": "at Biltmore Cabaret, Vancouver.",
+      "category": "Personal",
+      "layout": "tall"
+    },
+    {
+      "type": "image",
+      "src": "images/deep-cove.jpg",
+      "title": "Deep Cove Kayaks",
+      "caption": "with Matilde.",
+      "category": "Personal",
+      "layout": "hero"
+    },
+    {
+      "type": "image",
+      "src": "images/wonella.jpg",
+      "title": "After successfully defending my PhD",
+      "caption": "with Dear Won and Ella.",
+      "category": "Personal",
+      "layout": "tall"
+    },
+
+    {
+        "type":  "image",
+        "src":  "images/google-timeline.PNG",
+        "title":  "Travel Timeline",
+        "caption":  "A visual timeline map of countries and cities from major trips.",
+        "category":  "Travel",
+        "layout":  "hero"
+    },
+    {
+        "type":  "image",
+        "src":  "images/icon.png",
+        "title":  "Look Further Brand Mark",
+        "caption":  "Personal identity mark representing research, exploration, and engineering craft.",
+        "category":  "Personal",
+        "layout":  "square"
+    },
+    {
+        "type":  "image",
+        "src":  "images/50397249_00101_0002_XLarge.jpg",
+        "title":  "PhD Graduation",
+        "caption":  "Picture with the president of UBC.",
+        "category":  "Research",
+        "layout":  "tall"
+    },
+    {
+        "type":  "image",
+        "src":  "images/cropped_tim.png",
+        "title":  "Dr. Salcudean's Lab",
+        "caption":  "Not everyone present.",
+        "category":  "Research",
+        "layout":  "wide"
+    },
+    {
+        "type":  "image",
+        "src":  "images/DSC_0161.JPG",
+        "title":  "Shredding solo",
+        "caption":  "Playing live in UBC ECE department's Musical Night.",
+        "category":  "Personal",
+        "layout":  "wide"
+    },
+    {
+        "type":  "image",
+        "src":  "images/20180629_095324.jpg",
+        "title":  "MSc Thesis Defence",
+        "caption":  "Defending my MAIA MSc Thesis in a literally castle at Gaeta, Italy.",
+        "category":  "Research",
+        "layout":  "wide"
+    },
+    {
+        "type":  "image",
+        "src":  "images/20_20240529.jpg",
+        "title":  "PhD Convocation",
+        "caption":  "PhD Graduation with Matilde.",
+        "category":  "Personal",
+        "layout":  "medium"
+    },
+    {
+        "type":  "image",
+        "src":  "images/20230304_134027.jpg",
+        "title":  "UBC Duathlon/Triathlon",
+        "caption":  "First time participating in a Duathlon with my lab mates.",
+        "category":  "Personal",
+        "layout":  "medium"
+    },
+    {
+        "type":  "image",
+        "src":  "images/cropped_IAM_retreat.jpg",
+        "title":  "Receiving Dr. Kaura Award",
+        "caption":  "Dr. Deepak Kaura Award in the Mathematics of Medicine from Institute of Applied Mathematics Department, University of British Columbia.",
+        "category":  "Research",
+        "layout":  "medium"
+    },
+    {
+        "type":  "video",
+        "src":  "images/VideoEditor_20240530_050600.mp4",
+        "title":  "PhD Graduation Clip",
+        "caption":  "Full clip of receiving my PhD degree during convocation in 2024.",
+        "category":  "Research",
+        "layout":  "wide"
+    },
+    {
+        "type":  "image",
+        "src":  "images/received_552148999895757.jpeg",
+        "title":  "Young Investigator Award",
+        "caption":  "Receiving award from the IPCAI organizing team.",
+        "category":  "Research",
+        "layout":  "square"
+    },
+    {
+        "type":  "image",
+        "src":  "images/FUoBvBaVEAAtoL0.jpeg",
+        "title":  "IPCAI Japan 2022",
+        "caption":  "Presenting my research work amid COVID19 in Tokyo, Japan.",
+        "category":  "Research",
+        "layout":  "wide"
+    },
+    {
+        "type":  "image",
+        "src":  "images/20230623_094617.jpg",
+        "title":  "OPTIMAL Team from BC Cancer at Brachytherapy 2023",
+        "caption":  "OPTIMAL clinical research team in Brachytherapy conference held in Vancouver.",
+        "category":  "Research",
+        "layout":  "square"
+    },
+    {
+        "type":  "image",
+        "src":  "images/20230613_122626.jpg",
+        "title":  "UBC Poster Session",
+        "caption":  "Poster presentation at School of Biomedical Engineering Research day at the University of British Columbia.",
+        "category":  "Research",
+        "layout":  "square"
+    },
+    {
+        "type":  "image",
+        "src":  "images/RAF_3993.jpg",
+        "title":  "Playing at Simon Fraser University",
+        "caption":  "Performing with Sami at Simon Fraser University, Vancouver.",
+        "category":  "Personal",
+        "layout":  "square"
+    },
+    {
+        "type":  "image",
+        "src":  "images/IMG_8199 - Copy.jpeg",
+        "title":  "Being the Lab Rat",
+        "caption":  "I have volunteered for multiple research projects to help fine-tune our elastography technology. This photo captures me undergoing a scan with our lab's 3D liver elastography system.",
+        "category":  "Research",
+        "layout":  "square"
+    },
+    {
+        "type":  "image",
+        "src":  "images/Ro_friends_4.jpg",
+        "title":  "Robotics and Control Lab",
+        "caption":  "Rohit\u0027s PhD defence.",
+        "category":  "Research",
+        "layout":  "wide"
+    },
+    {
+        "type":  "image",
+        "src":  "images/miccaidaily.PNG",
+        "title":  "Featured as the main story on MICCAI Daily",
+        "caption":  "Interview about my PhD research published in MICCAI Daily as the main story.",
+        "category":  "Research",
+        "layout":  "wide"
+    }
+]

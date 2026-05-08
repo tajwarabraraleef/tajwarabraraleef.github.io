@@ -1,2 +1,19 @@
-images/**.mp4
-images/IUS-2023
+
+images/unused/**
+
+# Local editor settings
+.vscode/
+
+# Local scratch/parsing outputs
+tmp/
+
+# Unused vendored libraries (site uses CDN instead)
+css/aos/
+css/bootstrap/
+css/fontawesome/
+js/aos/
+js/bootstrap/
+
+# OS noise
+.DS_Store
+Thumbs.db

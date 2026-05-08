@@ -1,0 +1,46 @@
+{
+    "headline":  "Beyond research, I recharge through music, training, and travel.",
+    "sections":  [
+                     {
+                         "id":  "music",
+                         "title":  "Music",
+                         "description":  "I play a range of instruments, but the guitar is my strongest. My musical roots are in heavy metal and metalcore; anything with powerful distortion and intensity. Many of my research hours have been fueled by these sounds. Occasionally, I record and share covers as well.",
+                         "actions":  [
+                                         {
+                                             "label":  "Watch Guitar Covers",
+                                             "url":  "https://youtube.com/playlist?list=PL3m1Q5Dtntt8RTEJKjLOGsvp45aOg2WVw",
+                                             "kind":  "media"
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  "fitness",
+                         "title":  "Fitness",
+                         "description":  "Growing up on Dragon Ball Z inspired my interest in strength and heavy lifting. Since then, I've explored and studied different training methods. Lately, I've been shifting toward a more balanced approach, combining free weights with focused strength training.",
+                         "actions":  [
+                                         {
+                                             "label":  "Deadlift Clip",
+                                             "url":  "images/deadlift_2.mp4",
+                                             "kind":  "media"
+                                         }
+                                     ]
+                     },
+                     {
+                         "id":  "travel",
+                         "title":  "Travel",
+                         "description":  "I have visited more than 24 countries. Exposure to different cultures has shaped how I collaborate and communicate across global teams.",
+                         "actions":  [
+                                         {
+                                             "label":  "Travel Timeline",
+                                             "url":  "images/google-timeline.PNG",
+                                             "kind":  "resource"
+                                         },
+                                         {
+                                             "label":  "Thailand Snippet",
+                                             "url":  "https://youtu.be/6G1_6NY0hQw",
+                                             "kind":  "media"
+                                         }
+                                     ]
+                     }
+                 ]
+}

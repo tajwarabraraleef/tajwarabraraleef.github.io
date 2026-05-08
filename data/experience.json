@@ -1,0 +1,307 @@
+﻿[
+    {
+        "id":  "synthesis-associate-lead",
+        "org":  "Synthesis Health Inc.",
+        "logo":  "images/logos/synthesis_health_logo.jpg",
+        "role":  "Lead & Senior ML Scientist (Intelligent Medical Reporting)",
+        "location":  "Vancouver, Canada",
+        "start":  "2024",
+        "end":  "Present",
+        "bullets":  [
+                    "**Designed, developed, and scaled the end-to-end AI service (Report Assistant)** for Synthesis Health's radiology reporting platform, **supporting thousands of monthly reports generation across hundreds of radiologists and clinics.**",
+                    "Report Assistant uses foundational LLM models and orchestrates several agentic workflows for medical report validation, correction, contextual conclusions, and structured output generation, **delivering sub-4 second inference for clinical workflows**.",
+                    "**Owned full lifecycle delivery** (research, prototyping, deployment, testing, monitoring) of Report Assistant, proactively resolving production issues, ensuring uptime and seamless operation in high-stakes clinical environments.",
+                    "Drove product and business impact by **leading 7 major production releases**, contributing to acquisition of a major enterprise contract (publicly traded company).",
+                    "Led and fully managed a team of 4 ML scientists to develop and release specialized radiology reporting agents (Breast, Thyroid, Lung) aligned with BI-RADS, TI-RADS, and Lung-RADS standards.",
+                    "**Conceived, architected, and independently built the “Report Preference” platform** without formal product requirements, enabling radiologists and clinics to fully personalize AI behavior (reporting style, structure, tone, and agent logic). **This became a major strategic unblocker by decoupling AI customization from the slow-moving core reporting platform**, dramatically accelerating feature rollout, experimentation velocity, user adoption, and retention.",
+                    "Built AI-native control systems directly in the core platform,allowing direct user-level manipulation of model behavior from the frontend, eliminating engineering bottlenecks and enabling rapid experimentation.",
+                    "**Reduced inference latency of Report Assistant by ~50%** by redesigning pipelines into parallelized execution architectures.",
+                    "Created a monitoring and debugging system for production agents, enabling proactive issue detection and faster resolution."
+                    ],
+        "metrics":  [
+                        "7 major production releases shipped",
+                        "Processing ~30,000 reports per month",
+                        "200+ radiologists across 160+ facilities using the system",
+                        "50% reduction in inference latency",
+                        "Managed a team of 4 ML scientists",
+                        "Built platform for user-level AI customization (Report Preference)",
+                        "Owned full lifecycle of Report Assistant (research, prototyping, deployment, testing, monitoring)"
+                    ],
+        "tech":  [  "AI/ML",
+                     "LLM orchestration",
+                     "Agentic workflows",
+                     "NLP",
+                     "Clinical deployment",
+                    "Python",
+                    "AWS",
+                    "GCP",
+                    "Docker",
+                    "Kubernetes",
+                    "MLflow",
+                    "RAG",
+                    "API", "JavaScript"
+
+                 ]
+    },
+    {
+        "id":  "omnisync-cofounder-exp",
+        "org":  "OmniSync AI",
+        "logo":  "images/logos/omnisync-ai.png",
+        "role":  "Founder; Leading AI and Engineering",
+        "location":  "Vancouver, Canada",
+        "start":  "2023",
+        "end":  "Present",
+        "bullets":  [
+
+                    "**Founded, built, and scaled a multimodal Generative AI video** platform delivering lip-sync, voice cloning, audio translation, and word-level video/audio replacements, driving adoption across B2C and enterprise users.",
+                    "Architected diffusion-based video generation pipelines with audio-driven synchronization using PyTorch, enabling high-quality, controllable multimodal outputs under GPU-constrained environments.",
+                    "**Implemented a distributed GPU inference system** using AWS EC2, Kubernetes autoscaling, and Ray, optimizing throughput and maintaining stable performance under sustained high-load conditions.",
+                    "**Designed custom GPU job scheduler and autoscaling strategy** that dynamically provisions compute and parallelizes workloads, significantly reducing idle GPU costs while supporting traffic spikes.",
+                    "**Maintaining the full production stack** (frontend, backend, APIs, database, billing, storage, infra), ensuring reliable deployment, monetization, and end-to-end system scalability.",
+                    "**Optimized generation pipelines** through architectural improvements to **reduce latency bottlenecks, balancing model performance with real-world compute constraints of GenAI workloads.**",
+                    "**Developed enterprise API services**, extending platform capabilities to production-grade B2B use cases.",
+                    "**Leading a team of 4 graduate engineers and researchers** while maintaining full ownership across ML systems, infrastructure, and product roadmap, including cost and resource management.",
+                    "**Drove rapid feature iteration and customer-driven development** by directly integrating feedback loops into backend systems, accelerating enterprise readiness and retention."
+                    ],
+        "metrics":  [
+                        "2,200+ B2C users",
+                        "100,000++ videos generated",
+                        "Enterprise clients",
+                        "API service",
+                        "Integration with other platforms",
+                        "Word level video/audio replacements",
+                        "Audio cloning and translation",
+                        "Video generation with lip-sync",
+                        "Audio Transcriptions",
+                        "User Interface"
+
+                    ],
+        "tech":  [   "API services",
+                     "Diffusion models",
+                     "Kubernetes",
+                     "AWS EC2",
+                     "Typescript",
+                     "JavaScript",
+                     "Python",
+                    "PyTorch",
+                    "GPU optimization",
+                    "Distributed systems",
+                    "Multimodal AI"                 ]
+    },
+    {
+        "id": "synthesis-ml-scientist",
+        "org": "Synthesis Health Inc.",
+        "logo": "images/logos/synthesis_health_logo.jpg",
+        "role": "Machine Learning Scientist",
+        "location": "Vancouver, Canada",
+        "start": "2022",
+        "end": "2024",
+        "bullets": [
+                "**Led research and development of multi-modal and temporal medical image registration systems** (CT Lung, MRI/CT Head, X-ray Chest, CT/X-ray Spine) using deformable and rigid techniques, enabling longitudinal scan alignment and improving radiologist comparison workflows.",
+                "**Designed, trained, and deployed multiple 2D/3D medical image segmentation models** across imaging modalities using deep learning architectures.",
+                "**Developed abnormality detection models** for multiple disease conditions using large-scale heterogeneous imaging datasets.",
+                "Built ML models for imaging plane detection and MRI sequence classification, improving dataset standardization, preprocessing automation, and downstream pipeline reliability.",
+                "Helped operationalize scalable MLOps infrastructure using Docker, Kubernetes, and CI/CD pipelines, accelerating model deployment, reproducibility, and research-to-production iteration cycles.",
+                "Contributed to developing asynchronous distributed ML systems using Google Pub/Sub for inter-service communication and orchestration.",
+                "Contributed to large-scale medical imaging data processing and training workflows, handling heterogeneous datasets with varying modalities, annotation quality, formats, and acquisition protocols.",
+                "**Developed production-grade unit and integration tests** for ML pipelines and models while supporting frontend integration to ensure reliability, maintainability, and seamless product deployment.",
+                "Utilized LLM-based NLP pipelines to extract structured medical imaging findings from radiology reports for training medical imaging models.",
+                "**Balanced full-time PhD research alongside production ML development**, consistently delivering high-impact technical contributions across research, infrastructure, and deployment initiatives"
+        ],
+        "metrics": [
+                "Multi-modal registration models across CT, MRI, and X-ray imaging",
+                "Abnormality detection models",
+                "Production-ready 2D/3D segmentation models across multiple modalities",
+                "Imaging workflow automation via MRI sequence classification & plane detection",
+                "Asynchronous distributed ML orchestration via Google Pub/Sub",
+                "Production unit/integration testing for ML reliability and deployment stability"
+             ],
+        "tech": ["PyTorch", "TensorFlow", "MONAI", "SAM", "MedSAM", "Elastix", "YOLO", "UNet", "ITK", "Google Cloud Platform", "AWS", "DICOM", "OpenCV", "MLflow", "Pandas"]
+    },
+    {
+        "id":  "synthesis-intern",
+        "org":  "Synthesis Health Inc. (Mitacs Accelerate)",
+        "logo":  "images/logos/synthesis_health_logo.jpg",
+        "role":  "Machine Learning Scientist (Intern)",
+        "location":  "Vancouver, Canada",
+        "start":  "2022",
+        "end":  "2022",
+        "bullets":  [
+                        "Architected an in-house X-ray image registration pipeline that **outperformed a proposed vendor solution**, establishing the foundation for future multi-modal registration systems across CT, MRI, spine, lung, and mammography imaging.",
+                        "Identified technical and business limitations in third-party imaging solutions through independent benchmarking and experimentation, driving strategic internal AI capability development, **reducing cost and dependency on external vendors**.",
+                        "Collaborated directly with the Chief Innovation Officer to rapidly **prototype high-impact medical imaging AI concepts** and turned into product roadmaps.",
+                        "Trained and developed medical image segmentation and classification models.",
+                        "Expanded beyond core modeling responsibilities by contributing to data curation, annotation strategy, experimentation pipelines, and codebase development, enabling faster iteration across multiple imaging AI projects."
+
+                    ],
+        "metrics":  [
+                        "Replaced external vendor registration solution → avoided procurement/licensing costs",
+                        "Seeded future registration systems across X-ray, CT, MRI, spine, lung, and mammography imaging",
+                        "Developed multiple AI proof-of-concepts with executive leadership",
+                        "Accelerated imaging AI experimentation and model iteration workflows",
+                        "Improved registration quality over vendor benchmark"
+                    ],
+        "tech":  [
+                     "ITK", "Elastix", "OpenCV", "TensorFlow", "DICOM", "Python"
+
+                 ]
+    },
+    {
+        "id":  "ubc-ra",
+        "org":  "Robotics and Control Laboratory, University of British Columbia & BC Cancer",
+        "logo":  "images/logos/ubc_crest_bc_cancer.png",
+        "role":  "Research Assistant (RA)",
+        "location":  "Vancouver, Canada",
+        "start":  "2018",
+        "end":  "2023",
+        "bullets":  [
+                    "**Published 11 peer-reviewed research papers** and presented work at **leading medical imaging journals and conferences**, advancing state-of-the-art methods in prostate cancer imaging, elastography, and AI-driven intervention systems.",
+                    "**Led** end-to-end clinical data acquisition and developed multi-modal analysis pipelines for the **OPTiMAL clinical trial** (BC Cancer & UBC), integrating MRI and ultrasound data from operating rooms and clinical environments for quantitative prostate cancer research.",
+                    "Developed **three ultrasound elastography systems (3D + multi-frequency shear wave imaging)** by solving deep algorithmic and hardware bottlenecks, **unblocking projects stalled for 10+ years** and delivering publications in IEEE TMI, IEEE TUFFC, and IUS.",
+                    "Designed and implemented **novel adversarial learning-based AI systems for automated prostate brachytherapy planning**, reducing plan generation time from **~20 minutes to ~3 seconds (~400× speedup)** (MICCAI, IPCAI).",
+                    "Developed registration pipelines for transperineal template mapping biopsy, integrating multi-modal imaging (ultrasound, MRI) and multi-parametric data (anatomical, functional) to enable accurate targeting and treatment delivery.",
+                    "**Extended capabilities of commercial micro-ultrasound systems (ExactVu)** by enabling shear wave and strain imaging on high-frequency probes, validating new clinical use cases for next-generation prostate imaging platforms.",
+                    "Operated at the intersection of AI, imaging, and hardware systems by designing, debugging, and maintaining custom medical devices critical to continuing clinical data collection.",
+                    "Collaborated with oncologists, radiologists, and imaging technologists in OR and clinical environments, ensuring robust and reproducible data acquisition under real-world constraints.",
+                    "**Mentored PhD/MSc students and interns**, contributing to project execution, research quality, and hiring decisions within a multidisciplinary team.",
+                    "**Contributed to Liver Fibrosis study, Radical Prostatectomy study, GAN-based training for DaVinci tool tracking in robotic surgery, implementation of 3D imaging in 2D ExactVu microUS systems, and many more.**"
+                    ],
+        "metrics":  [
+                    "11 publications in top-tier venues (MICCAI, IEEE TMI, IEEE TUFFC, IEEE IUS, IPCAI)",
+                    "3 novel elastography systems (3D + multi-frequency SWAVE)",
+                    "~400× speedup (20 min → ~3 sec planning time)",
+                    "OPTiMAL clinical trial (multi-modal MRI + ultrasound dataset)",
+                    "First SWAVE/strain imaging on a commercial ExactVu micro-US",
+                    "Revived projects stalled for 10 years"
+                    ],
+        "tech":  [
+                     "Ultrasound",
+                     "Quantitative Imaging",
+                     "Elastography",
+                     "Multi-parametric Imaging",
+                     "Magnetic Resonance Imaging (MRI)",
+                     "Image registration",
+                     "Image segmentation",
+                     "Adversarial learning",
+                     "3D imaging",
+                     "Pytorch",
+                     "TensorFlow",
+                    "Python",
+                    "C++",
+                    "MATLAB",
+                     "Hardware systems"
+                     ]
+    },
+
+    {
+        "id": "ubc-ta",
+        "org": "Electrical and Computer Engineering, University of British Columbia ",
+        "logo": "images/logos/ece.png",
+        "role": "Teaching Assistant (EECE 570: Fundamentals of Visual Computing, ELEC 421: Digital Signal and Image Processing, and Capstone Design Project)",
+        "location": "Vancouver, Canada",
+        "start": "2019",
+        "end": "2022",
+        "bullets": [
+                    "**Capstone Project (4 academic terms): Supervisory TA of 9 multidisciplinary capstone teams (44 students)** tackling real-world industrial problems, mentoring project execution and unblocking technical challenges, resulting in successful end-to-end solution deliveries.",
+                    "**EECE 570 (2 academic terms):** Architected and delivered course assignments for this graduate-level course, translating advanced concepts (computer vision, graphics) into applied projects, enhancing student engagement and course quality.",
+                    "**ELEC 421:** Developed and took lab sessions, bridging theory with hands-on implementation (MATLAB-based workflows), improving practical understanding."
+        ],
+        "metrics": [
+            "Supervised/Mentored 44 final year capstone students across 9 teams",
+            "Instructed full lab sessions",
+            "Designed Graduate and Undergraduate Lab assignments",
+            "Mentored final course projects"
+
+        ],
+        "tech": [
+            "Computer Vision", "Signal Processing", "Image Processing", "Project Mentorship", "Robotics"
+        ]
+    },
+
+    {
+        "id": "ubc-ta-sbme",
+        "org": "School of Biomedical Engineering, University of British Columbia ",
+        "logo": "images/logos/sbme.jpg",
+        "role": "Teaching Assistant (BMEG 321: Biomedical Instrumentation)",
+        "location": "Vancouver, Canada",
+        "start": "2021",
+        "end": "2022",
+        "bullets": [
+                "**Deployed end-to-end biomedical instrumentation labs** by designing hands-on experiments that uses clinical devices (ultrasound, ECG, EMG, EEG, oximeters), enabling scalable, real-world training adopted across multiple academic terms.",
+                "**Architected and operationalized lab infrastructure** by sourcing, procuring, and configuring diverse medical hardware and simulation systems (tissue phantoms, laparoscopy workstations), ensuring reliability and reproducibility of lab experiments.",
+                "**Built long-term academic infrastructure** by designing lab modules still actively used in the curriculum.",
+                "**Led onboarding and training** of multiple teaching assistants for conducting lab sessions."
+
+        ],
+        "metrics": [
+            "Designed and deployed the full biomedical instrumentation lab curriculum",
+            "Hands-on experiments with clinical devices (ultrasound, ECG, EMG, EEG, oximeters)",
+            "Training and Onboarding of multiple TA cohorts",
+            "Lab still being used in the curriculum"
+        ],
+        "tech": [
+            "ECG", "EMG", "EEG", "Ultrasound", "Laparoscopy", "Blood Pressure", "Oximetry", "Biomedical instrumentation"
+        ]
+    }
+    ,
+    {
+        "id": "diag",
+        "org": "Diagnostic Image Analysis Group (DIAG), Radboud University Medical Center",
+        "logo": "images/logos/radboud.png",
+        "role": "Graduate Researcher",
+        "location": "Nijmegen, the Netherlands",
+        "start": "2018",
+        "end": "2018",
+        "bullets": [
+                    "Researched if prior/time-series CT scans can improve pulmonary nodule malignancy detection.",
+                    "**Designed a novel 2.5D CNN multi-timepoint architecture**, improving temporal feature learning while reducing computational complexity.",
+                    "**Achieved 98% AUC**, a significant jump from the baseline single scan methods.",
+                    "Conducted extensive ablation studies to systematically evaluate architectural components (e.g., temporal inputs, parallel pathways), driving data-efficient model design decisions."
+        ],
+        "metrics": [
+            "Publication in top-tier journal (Radiology)",
+            "Proved value of utilizing prior imaging data for lung nodule assessment",
+            "98% AUC achieved on a hold out test set",
+            "Reduced model complexity vs 3D approaches",
+            "Robust performance even on highly imbalanced dataset"
+
+        ],
+        "tech": [
+            "Tensorflow",
+            "Python",
+            "MATLAB",
+            "Convolutional Neural Networks",
+            "Temporal feature learning"
+        ]
+    },
+        {
+            "id": "leiden-visitor",
+            "org": "Leiden University Medical Center & Delft University of Technology (TU Delft)",
+            "logo": "images/logos/lumc_tu_delft.png",
+            "role": "Visiting Graduate Researcher",
+            "location": "Leiden, the Netherlands",
+            "start": "2017",
+            "end": "2017",
+            "bullets": [
+                "**Researched and developed a CNN-based regression model** to automatically estimate the location/orientation of cervical brachytherapy applicator from MRI scans. This enables the possibility of real-time treatment adjustment and therefore better dose optimization.",
+                "**Engineered a fully synthetic data generation pipeline** to simulate MRI-like training data under varying anatomical and imaging conditions, enabling model development and unblocking limited data availability in the lab.",
+                "**Demonstrated feasibility of end-to-end deep learning** for treatment parameter estimation, introducing a scalable alternative to traditional clinician-driven workflows."
+            ],
+            "metrics": [
+                "Proposed 4 different methods of achieving the task",
+                "Best method achieved 96% dice score with MSE of 0.4 pixel",
+                "Developed synthetic data pipeline enabling model development without real patient data"
+            ],
+            "tech": [
+                "TensorFlow",
+                "Python",
+                "MATLAB",
+                "Spatial Transformers",
+                "Convolutional Neural Networks",
+                "Regressive modeling"
+            ]
+        }
+
+]
+
+

@@ -1,0 +1,49 @@
+{
+    "headline": "Clinical AI | Agentic LLM Systems | Multimodal AI | Research-to-Production Leadership",
+    "blurb": "AI scientist and engineering leader with experience spanning production radiology reporting, multimodal generative AI products, and medical imaging research. Built and scaled agentic LLM systems for clinical workflows, founded a multimodal video AI platform, and translated research depth into reliable infrastructure, deployment, and measurable product impact.",
+    "metrics": [
+        {
+            "value": "10+",
+            "label": "Years in AI",
+            "detail": "Experience across research and production, strengthened by specialized medical imaging training through ERASMUS+ and UBC."
+        },
+        {
+            "value": "7",
+            "label": "Production Releases Shipped",
+            "detail": "Major production releases led for Report Assistant at Synthesis Health."
+        },
+        {
+            "value": "~30,000",
+            "label": "Clinical Reports / Month",
+            "detail": "Production reporting volume supported by Report Assistant at Synthesis Health."
+        },
+        {
+            "value": "100,000+",
+            "label": "AI Videos Generated",
+            "detail": "Multimodal generation volume delivered through OmniSync AI."
+        },
+
+        {
+            "value": "High Impact",
+            "label": "Research Publications",
+            "detail": "Published and cited across many top-tier journals and conferences in medical imaging and AI."
+        },
+        {
+            "value": "ERASMUS+",
+            "label": "Scholar",
+            "detail": "Recipient of the highly competitive Erasmus Mundus Joint Master Scholarship in Medical Imaging and Applications."
+        },
+        {
+            "value": "~400x",
+            "label": "Planning Speedup",
+            "detail": "Reduced prostate brachytherapy planning time from about 20 minutes to about 3 seconds."
+        }
+    ],
+    "valueProps": [
+        "Agentic LLM systems for clinical reporting, validation, and structured output generation in production settings.",
+        "Research-to-production AI delivery across medical imaging, high-stakes clinical workflows, and real-world deployment constraints.",
+        "Cloud-native ML infrastructure across AWS, GCP, Kubernetes, distributed inference, and production monitoring.",
+        "Multimodal generative AI systems for video, audio, and speech workflows under latency and cost constraints.",
+        "Technical leadership spanning product direction, experimentation, shipping, and mentoring ML and engineering teams."
+    ]
+}

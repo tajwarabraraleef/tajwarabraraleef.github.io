@@ -1,0 +1,27 @@
+﻿[
+    {
+        "label":  "Email",
+        "url":  "mailto:tajwar@omnisync.ai",
+        "icon":  "fa-regular fa-envelope"
+    },
+    {
+        "label":  "Google Scholar",
+        "url":  "https://scholar.google.com/citations?user=MhZ_pv8AAAAJ\u0026hl=en\u0026oi=ao",
+        "icon":  "fa-brands fa-google-scholar"
+    },
+    {
+        "label":  "GitHub",
+        "url":  "https://github.com/tajwarabraraleef/",
+        "icon":  "fa-brands fa-github"
+    },
+    {
+        "label":  "LinkedIn",
+        "url":  "https://www.linkedin.com/in/tajwar-abrar-aleef/",
+        "icon":  "fa-brands fa-linkedin"
+    },
+    {
+        "label":  "YouTube",
+        "url":  "https://www.youtube.com/user/rrobothead/videos",
+        "icon":  "fa-brands fa-youtube"
+    }
+]
