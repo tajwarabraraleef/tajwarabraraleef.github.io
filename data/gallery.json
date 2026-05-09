@@ -1,5 +1,21 @@
 ﻿[
     {
+        "type": "image",
+        "src": "images/swave.png",
+        "title": "3D SWAVE system for prostate imaging",
+        "caption": "Full system with the multi-frequency transperineal excitation.",
+        "category": "Research",
+        "layout": "hero"
+    },
+    {
+        "type": "image",
+        "src": "images/uffc_1.png",
+        "title": "Probe Mounted 3D SWAVE system",
+        "caption": "For guiding prostate biopsy.",
+        "category": "Research",
+        "layout": "square"
+    },
+    {
       "type": "video",
       "src": "images/heart.mp4",
       "title": "US scan of my heart",
