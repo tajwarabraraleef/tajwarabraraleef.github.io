@@ -1,7 +1,7 @@
 ﻿[
     {
         "id":  "synthesis-associate-lead",
-        "org":  "Synthesis Health Inc.",
+        "org":  "Synthesis Health",
         "logo":  "images/logos/synthesis_health_logo.jpg",
         "role":  "Lead & Senior ML Scientist (Intelligent Medical Reporting)",
         "location":  "Vancouver, Canada",
@@ -11,7 +11,7 @@
                     "**Designed, developed, and scaled the end-to-end AI service (Report Assistant)** for Synthesis Health's radiology reporting platform, **supporting thousands of monthly reports generation across hundreds of radiologists and clinics.**",
                     "Report Assistant uses foundational LLM models and orchestrates several agentic workflows for medical report validation, correction, contextual conclusions, and structured output generation, **delivering sub-4 second inference for clinical workflows**.",
                     "**Owned full lifecycle delivery** (research, prototyping, deployment, testing, monitoring) of Report Assistant, proactively resolving production issues, ensuring uptime and seamless operation in high-stakes clinical environments.",
-                    "Drove product and business impact by **leading 7 major production releases**, contributing to acquisition of a major enterprise contract (publicly traded company).",
+                    "Drove product and business impact by **leading 7 major production releases**, contributing to acquisition of a major enterprise contract.",
                     "Led and fully managed a team of 4 ML scientists to develop and release specialized radiology reporting agents (Breast, Thyroid, Lung) aligned with BI-RADS, TI-RADS, and Lung-RADS standards.",
                     "**Conceived, architected, and independently built the “Report Preference” platform** without formal product requirements, enabling radiologists and clinics to fully personalize AI behavior (reporting style, structure, tone, and agent logic). **This became a major strategic unblocker by decoupling AI customization from the slow-moving core reporting platform**, dramatically accelerating feature rollout, experimentation velocity, user adoption, and retention.",
                     "Built AI-native control systems directly in the core platform,allowing direct user-level manipulation of model behavior from the frontend, eliminating engineering bottlenecks and enabling rapid experimentation.",
@@ -37,7 +37,6 @@
                     "GCP",
                     "Docker",
                     "Kubernetes",
-                    "MLflow",
                     "RAG",
                     "API", "JavaScript"
 
@@ -90,7 +89,7 @@
     },
     {
         "id": "synthesis-ml-scientist",
-        "org": "Synthesis Health Inc.",
+        "org": "Synthesis Health",
         "logo": "images/logos/synthesis_health_logo.jpg",
         "role": "Machine Learning Scientist",
         "location": "Vancouver, Canada",
@@ -116,11 +115,11 @@
                 "Asynchronous distributed ML orchestration via Google Pub/Sub",
                 "Production unit/integration testing for ML reliability and deployment stability"
              ],
-        "tech": ["PyTorch", "TensorFlow", "MONAI", "SAM", "MedSAM", "Elastix", "YOLO", "UNet", "ITK", "Google Cloud Platform", "AWS", "DICOM", "OpenCV", "MLflow", "Pandas"]
+        "tech": ["PyTorch", "TensorFlow", "MONAI", "SAM", "MedSAM", "Elastix", "YOLO", "UNet", "ITK", "Google Cloud Platform", "AWS", "DICOM", "OpenCV", "MLflow", "Pandas", "MLflow"]
     },
     {
         "id":  "synthesis-intern",
-        "org":  "Synthesis Health Inc. (Mitacs Accelerate)",
+        "org":  "Synthesis Health (Mitacs Accelerate)",
         "logo":  "images/logos/synthesis_health_logo.jpg",
         "role":  "Machine Learning Scientist (Intern)",
         "location":  "Vancouver, Canada",
