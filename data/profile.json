@@ -1,11 +1,11 @@
 {
     "name": "Tajwar Abrar Aleef, PhD",
-    "role": "Building production clinical and multimodal systems that scales.",
+    "role": "Senior ML Scientist building production clinical and multimodal AI systems.",
     "organization": "",
     "heroImage": "images/tajwar_2.jpg",
     "heroAlt": "Portrait of Tajwar Abrar Aleef",
     "headline": "",
-    "subheadline": "Hello World! I work across clinical AI, multimodal generative systems, and medical imaging with a focus on turning ambitious research and product ideas into dependable real-world systems. My experience spans agentic LLM workflows for radiology reporting, multimodal video and audio generation platforms, production ML infrastructure, and a strong research foundation built through specialized medical imaging training (MSc), PhD research, and hands-on leadership from prototyping to deployment.",
+    "subheadline": "Hello World! I work across agentic LLM systems, multimodal generative AI, and medical imaging with a focus on turning ambitious research and product ideas into dependable real-world systems. My experience spans radiology reporting agents deployed across 160+ healthcare facilities, multimodal video and audio generation platforms, production ML infrastructure, and PhD-level medical imaging research.",
     "availability": "Open to senior leadership roles and strategic collaborations across AI, spanning research, product innovation, and emerging intelligent systems.",
     "expertise": [
         "Agentic LLM Systems",

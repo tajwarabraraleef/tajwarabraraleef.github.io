@@ -3,26 +3,25 @@
         "id":  "synthesis-associate-lead",
         "org":  "Synthesis Health",
         "logo":  "images/logos/synthesis_health_logo.jpg",
-        "role":  "Lead & Senior ML Scientist (Intelligent Medical Reporting)",
+        "role":  "Lead & Senior Machine Learning Scientist - Intelligent Medical Reporting",
         "location":  "Vancouver, Canada",
         "start":  "2024",
         "end":  "Present",
         "bullets":  [
-                    "**Designed, developed, and scaled the end-to-end AI service (Report Assistant)** for Synthesis Health's radiology reporting platform, **supporting thousands of monthly reports generation across hundreds of radiologists and clinics.**",
-                    "Report Assistant uses foundational LLM models and orchestrates several agentic workflows for medical report validation, correction, contextual conclusions, and structured output generation, **delivering sub-4 second inference for clinical workflows**.",
-                    "**Owned full lifecycle delivery** (research, prototyping, deployment, testing, monitoring) of Report Assistant, proactively resolving production issues, ensuring uptime and seamless operation in high-stakes clinical environments.",
-                    "Drove product and business impact by **leading 7 major production releases**, contributing to acquisition of a major enterprise contract.",
-                    "Led and fully managed a team of 4 ML scientists to develop and release specialized radiology reporting agents (Breast, Thyroid, Lung) aligned with BI-RADS, TI-RADS, and Lung-RADS standards.",
-                    "**Conceived, architected, and independently built the “Report Preference” platform** without formal product requirements, enabling radiologists and clinics to fully personalize AI behavior (reporting style, structure, tone, and agent logic). **This became a major strategic unblocker by decoupling AI customization from the slow-moving core reporting platform**, dramatically accelerating feature rollout, experimentation velocity, user adoption, and retention.",
-                    "Built AI-native control systems directly in the core platform,allowing direct user-level manipulation of model behavior from the frontend, eliminating engineering bottlenecks and enabling rapid experimentation.",
-                    "**Reduced inference latency of Report Assistant by ~50%** by redesigning pipelines into parallelized execution architectures.",
-                    "Created a monitoring and debugging system for production agents, enabling proactive issue detection and faster resolution."
+                    "**Designed, developed, and scaled the end-to-end AI service, Report Assistant, from scratch** for Synthesis Health's radiology reporting platform, supporting **30,000+ monthly reports across 160+ facilities**.",
+                    "Architected agentic LLM workflows for medical report validation, correction, contextual conclusions, and structured output generation.",
+                    "Restructured the full Report Assistant architecture, reducing inference time from **6 seconds to 2 seconds** for live clinical environments.",
+                    "Owned full lifecycle delivery across research, prototyping, deployment, and monitoring for **7 major production releases**.",
+                    "Led and managed a team of **4 ML scientists** to develop and release specialized radiology reporting agents for Breast, Thyroid, and Lung workflows aligned with BI-RADS, TI-RADS, and Lung-RADS standards.",
+                    "Conceived, architected, and independently built the **Report Preference platform**, enabling per-radiologist and per-clinic AI customization and accelerating feature rollout and retention.",
+                    "Built AI-native control systems allowing direct user-level manipulation of model behavior from the frontend, eliminating engineering bottlenecks and enabling rapid experimentation.",
+                    "Created production monitoring and debugging tooling for live agents, enabling proactive issue detection and faster resolution."
                     ],
         "metrics":  [
                         "7 major production releases shipped",
-                        "Processing ~30,000 reports per month",
-                        "200+ radiologists across 160+ facilities using the system",
-                        "50% reduction in inference latency",
+                        "Processing 30,000+ reports per month",
+                        "Deployed across 160+ healthcare facilities",
+                        "Reduced inference time from 6 seconds to 2 seconds",
                         "Managed a team of 4 ML scientists",
                         "Built platform for user-level AI customization (Report Preference)",
                         "Owned full lifecycle of Report Assistant (research, prototyping, deployment, testing, monitoring)"
@@ -38,7 +37,9 @@
                     "Docker",
                     "Kubernetes",
                     "RAG",
-                    "API", "JavaScript"
+                    "FastAPI",
+                    "API",
+                    "JavaScript"
 
                  ]
     },
@@ -46,25 +47,22 @@
         "id":  "omnisync-cofounder-exp",
         "org":  "OmniSync AI",
         "logo":  "images/logos/omnisync-ai.png",
-        "role":  "Founder; Leading AI and Engineering",
+        "role":  "Founder (Led AI and Engineering)",
         "location":  "Vancouver, Canada",
         "start":  "2023",
-        "end":  "Present",
+        "end":  "2026",
         "bullets":  [
 
-                    "**Founded, built, and scaled a multimodal Generative AI video** platform delivering lip-sync, voice cloning, audio translation, and word-level video/audio replacements, driving adoption across B2C and enterprise users.",
+                    "**Founded, built, and scaled a multimodal generative AI video platform** delivering lip-sync, voice cloning, audio translation, and word-level video/audio replacements; adopted by **2,800+ B2C users** and enterprise clients, with **150,000+ AI videos generated**.",
                     "Architected diffusion-based video generation pipelines with audio-driven synchronization using PyTorch, enabling high-quality, controllable multimodal outputs under GPU-constrained environments.",
-                    "**Implemented a distributed GPU inference system** using AWS EC2, Kubernetes autoscaling, and Ray, optimizing throughput and maintaining stable performance under sustained high-load conditions.",
-                    "**Designed custom GPU job scheduler and autoscaling strategy** that dynamically provisions compute and parallelizes workloads, significantly reducing idle GPU costs while supporting traffic spikes.",
-                    "**Maintaining the full production stack** (frontend, backend, APIs, database, billing, storage, infra), ensuring reliable deployment, monetization, and end-to-end system scalability.",
-                    "**Optimized generation pipelines** through architectural improvements to **reduce latency bottlenecks, balancing model performance with real-world compute constraints of GenAI workloads.**",
+                    "**Implemented a distributed GPU inference system** using AWS EC2, Kubernetes autoscaling, and Ray; designed a custom GPU job scheduler that dynamically provisions compute and parallelizes workloads, reducing idle GPU costs while sustaining traffic spikes.",
+                    "**Maintained the full production stack** including frontend, backend, APIs, database, billing, storage, and infrastructure across B2C and enterprise API services.",
                     "**Developed enterprise API services**, extending platform capabilities to production-grade B2B use cases.",
-                    "**Leading a team of 4 graduate engineers and researchers** while maintaining full ownership across ML systems, infrastructure, and product roadmap, including cost and resource management.",
-                    "**Drove rapid feature iteration and customer-driven development** by directly integrating feedback loops into backend systems, accelerating enterprise readiness and retention."
+                    "**Led a team of 4 graduate engineers and researchers** while maintaining full ownership across ML systems, infrastructure, cost management, and product roadmap."
                     ],
         "metrics":  [
-                        "2,200+ B2C users",
-                        "100,000++ videos generated",
+                        "2,800+ B2C users",
+                        "150,000+ videos generated",
                         "Enterprise clients",
                         "API service",
                         "Integration with other platforms",

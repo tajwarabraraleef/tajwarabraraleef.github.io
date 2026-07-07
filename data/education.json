@@ -1,6 +1,6 @@
 [
     {
-        "degree": "PhD - Biomedical Engineering",
+        "degree": "PhD in Biomedical Engineering",
         "institution": "University of British Columbia",
         "location": "Vancouver, Canada",
         "start": "2018",
@@ -8,11 +8,11 @@
         "period": "2018 - 2023",
         "logo": "images/logos/ubc_crest_bc_cancer.png",
         "bullets": [
-                    "PhD in Biomedical Engineering conducting interdisciplinary research at the intersection of AI, medical imaging, ultrasound systems, and image-guided cancer intervention.",
-                    "**Published 11 peer-reviewed research papers** and presented work at **leading medical imaging journals and conferences**, advancing state-of-the-art methods in prostate cancer imaging, elastography, and AI-driven intervention systems.",
+                    "Conducted **interdisciplinary research** at the intersection of **AI, medical imaging, ultrasound systems, and image-guided cancer intervention**.",
+                    "**Published 11 peer-reviewed research papers** at leading medical imaging journals and conferences, advancing state-of-the-art methods in prostate cancer imaging, elastography, and AI-driven intervention systems.",
                     "**Led** end-to-end clinical data acquisition and developed multi-modal analysis pipelines for the **OPTiMAL clinical trial** (BC Cancer & UBC), integrating MRI and ultrasound data from operating rooms and clinical environments for quantitative prostate cancer research.",
                     "Developed **three ultrasound elastography systems (3D + multi-frequency shear wave imaging)** by solving deep algorithmic and hardware bottlenecks, **unblocking projects stalled for 10+ years** and delivering publications in IEEE TMI, IEEE TUFFC, and IUS.",
-                    "Designed and implemented **novel adversarial learning systems for automated prostate brachytherapy planning**, reducing plan generation time from **~20 minutes to ~3 seconds (~400× speedup)** (MICCAI, IPCAI).",
+                    "Designed and implemented **novel adversarial learning systems for automated prostate brachytherapy planning**, reducing plan generation time from **~20 minutes to ~3 seconds (~400x speedup)** (MICCAI, IPCAI).",
                     "Developed registration pipelines for transperineal template mapping biopsy, integrating multi-modal imaging (ultrasound, MRI) and multi-parametric data (anatomical, functional) to enable accurate targeting and treatment delivery.",
                     "**Extended capabilities of commercial micro-ultrasound systems (ExactVu)** by enabling shear wave and strain imaging on high-frequency probes, validating new clinical use cases for next-generation prostate imaging platforms."
         ],
@@ -47,21 +47,21 @@
         ],
         "scholarships": [
             "**Affiliated Doctoral Scholarship**, Faculty of Graduate and Postdoctoral Studies, University of British Columbia: This **highly competitive scholarship** is awarded to **highly meritorious** students following a university-wide competition.",
-            "**Assortment of Awards from UBC**, University of British Columbia: Received the Faculty of Applied Science Graduate Award, International Tuition Award, and President’s Academic Excellence Initiative PhD Award, in recognition of academic achievements.",
+            "**Assortment of Awards from UBC**, University of British Columbia: Received the Faculty of Applied Science Graduate Award, International Tuition Award, and President's Academic Excellence Initiative PhD Award, in recognition of academic achievements.",
             "**Dr. Deepak Kaura Award in the Mathematics of Medicine**, Institute of Applied Mathematics Department, University of British Columbia: Awarded in recognition of **outstanding interdisciplinary work in leveraging mathematical tools to advance medical imaging.**"
         ]
     },
     {
-        "degree": "MSc - Medical Imaging & Applications (ERASMUS+)",
+        "degree": "MSc in Medical Imaging and Applications (ERASMUS+ Mundus)",
         "institution": "University of Burgundy, University of Cassino, University of Girona, and Radboud University Medical Center",
-        "location": "France, Italy, Spain, and the Netherlands",
+        "location": "France, Italy, Spain, and Netherlands",
         "start": "2016",
         "end": "2018",
         "period": "2016 - 2018",
         "logo": "images/logos/maia_all.png",
         "bullets": [
-            "**Highly competitive Erasmus Mundus program** with extremely limited global intake (**maximum ~2 students admitted per country annually**), funded through a **prestigious international scholarship program**.",
-            "**120-credit joint European MSc** in Medical Imaging and Applications across **3 European universities** and a research laboratory, combining advanced coursework, research, and international collaboration.",
+            "**Highly competitive Erasmus Mundus program** across 3 European universities and research laboratories, with extremely limited global intake (**maximum ~2 students admitted per country annually**) and full funding through a **prestigious scholarship**.",
+            "**120-credit joint European MSc** in Medical Imaging and Applications combining advanced coursework, research, and international collaboration.",
             "**Published 4 peer-reviewed research articles** within the 2-year MSc program.",
             "Built **strong expertise in AI, computer vision, and medical imaging** through advanced graduate coursework in image analysis, pattern recognition, image segmentation, image registration, computer-aided diagnosis, medical robotics, distributed systems, and parallel computing.",
             "Conducted extensive laboratory work, technical projects, and research activities involving medical imaging technologies, computational methods, and healthcare applications.",
@@ -103,7 +103,7 @@
         ]
     },
     {
-        "degree": "BSc - Electrical and Electronic Engineering",
+        "degree": "BSc in Electrical and Electronic Engineering",
         "institution": "American International University Bangladesh",
         "location": "Bangladesh",
         "start": "2012",
@@ -111,8 +111,8 @@
         "period": "2012 - 2016",
         "logo": "images/logos/aiub.png",
         "bullets": [
-                    "Program with **145 credits across 59 courses**, covering a broad range of electrical engineering, electronics, telecommunications, embedded systems, signal processing, and electromagnetics.",
-                    "Graduated with a **CGPA of 3.96/4.00 and was awarded Summa Cum Laude honors** for outstanding academic performance in Electrical and Electronic Engineering.",
+                    "Completed a **145-credit program across 59 courses**, covering electrical engineering, electronics, telecommunications, embedded systems, signal processing, and electromagnetics.",
+                    "Graduated with a **CGPA of 3.96/4.00** and **Summa Cum Laude distinction**, the highest academic honor.",
                     "**Published 3 research articles** focused on antenna design and applied electromagnetics.",
                     "Built **strong engineering foundations through advanced coursework** in control systems, power systems, VLSI design, microprocessors, embedded systems, analog/digital electronics, and antenna and communication engineering.",
                     "Developed **extensive hands-on experience** through integrated laboratory training in electrical circuits, electronics, telecommunications, electrical machines, and hardware-focused engineering projects.",
